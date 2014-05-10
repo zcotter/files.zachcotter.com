@@ -1,0 +1,6 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3394 Sep 20  2013 test-descendant.rb
+-rw-r--r--   1 zcotter  pg4945649    10967 Sep 20  2013 test_dir.rb
+-rw-r--r--   1 zcotter  pg4945649    12714 Sep 20  2013 test-load.rb
+-rw-r--r--   1 zcotter  pg4945649     2992 Sep 20  2013 test_objectspace.rb

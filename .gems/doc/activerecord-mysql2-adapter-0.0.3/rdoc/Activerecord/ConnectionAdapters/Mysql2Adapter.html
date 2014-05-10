@@ -1,0 +1,2125 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>class ActiveRecord::ConnectionAdapters::Mysql2Adapter - activerecord-mysql2-adapter-0.0.3 Documentation</title>
+
+<link type="text/css" media="screen" href="../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../../index.html">Home</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/active_record/connection_adapters/mysql2_adapter.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">AbstractAdapter
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-new">::new</a>
+    
+    <li><a href="#method-i-active-3F">#active?</a>
+    
+    <li><a href="#method-i-adapter_name">#adapter_name</a>
+    
+    <li><a href="#method-i-add_column">#add_column</a>
+    
+    <li><a href="#method-i-add_column_position-21">#add_column_position!</a>
+    
+    <li><a href="#method-i-add_limit_offset-21">#add_limit_offset!</a>
+    
+    <li><a href="#method-i-begin_db_transaction">#begin_db_transaction</a>
+    
+    <li><a href="#method-i-case_sensitive_equality_operator">#case_sensitive_equality_operator</a>
+    
+    <li><a href="#method-i-change_column">#change_column</a>
+    
+    <li><a href="#method-i-change_column_default">#change_column_default</a>
+    
+    <li><a href="#method-i-change_column_null">#change_column_null</a>
+    
+    <li><a href="#method-i-charset">#charset</a>
+    
+    <li><a href="#method-i-collation">#collation</a>
+    
+    <li><a href="#method-i-columns">#columns</a>
+    
+    <li><a href="#method-i-commit_db_transaction">#commit_db_transaction</a>
+    
+    <li><a href="#method-i-create">#create</a>
+    
+    <li><a href="#method-i-create_database">#create_database</a>
+    
+    <li><a href="#method-i-create_savepoint">#create_savepoint</a>
+    
+    <li><a href="#method-i-create_table">#create_table</a>
+    
+    <li><a href="#method-i-current_database">#current_database</a>
+    
+    <li><a href="#method-i-disconnect-21">#disconnect!</a>
+    
+    <li><a href="#method-i-drop_table">#drop_table</a>
+    
+    <li><a href="#method-i-execute">#execute</a>
+    
+    <li><a href="#method-i-indexes">#indexes</a>
+    
+    <li><a href="#method-i-insert_sql">#insert_sql</a>
+    
+    <li><a href="#method-i-limited_update_conditions">#limited_update_conditions</a>
+    
+    <li><a href="#method-i-native_database_types">#native_database_types</a>
+    
+    <li><a href="#method-i-pk_and_sequence_for">#pk_and_sequence_for</a>
+    
+    <li><a href="#method-i-primary_key">#primary_key</a>
+    
+    <li><a href="#method-i-quote">#quote</a>
+    
+    <li><a href="#method-i-quote_string">#quote_string</a>
+    
+    <li><a href="#method-i-quoted_columns_for_index">#quoted_columns_for_index</a>
+    
+    <li><a href="#method-i-quoted_false">#quoted_false</a>
+    
+    <li><a href="#method-i-quoted_true">#quoted_true</a>
+    
+    <li><a href="#method-i-reconnect-21">#reconnect!</a>
+    
+    <li><a href="#method-i-recreate_database">#recreate_database</a>
+    
+    <li><a href="#method-i-release_savepoint">#release_savepoint</a>
+    
+    <li><a href="#method-i-rename_column">#rename_column</a>
+    
+    <li><a href="#method-i-rename_table">#rename_table</a>
+    
+    <li><a href="#method-i-requires_reloading-3F">#requires_reloading?</a>
+    
+    <li><a href="#method-i-reset-21">#reset!</a>
+    
+    <li><a href="#method-i-rollback_db_transaction">#rollback_db_transaction</a>
+    
+    <li><a href="#method-i-rollback_to_savepoint">#rollback_to_savepoint</a>
+    
+    <li><a href="#method-i-select_rows">#select_rows</a>
+    
+    <li><a href="#method-i-show_variable">#show_variable</a>
+    
+    <li><a href="#method-i-structure_dump">#structure_dump</a>
+    
+    <li><a href="#method-i-supports_migrations-3F">#supports_migrations?</a>
+    
+    <li><a href="#method-i-supports_primary_key-3F">#supports_primary_key?</a>
+    
+    <li><a href="#method-i-supports_savepoints-3F">#supports_savepoints?</a>
+    
+    <li><a href="#method-i-table_exists-3F">#table_exists?</a>
+    
+    <li><a href="#method-i-tables">#tables</a>
+    
+    <li><a href="#method-i-translate_exception">#translate_exception</a>
+    
+    <li><a href="#method-i-type_to_sql">#type_to_sql</a>
+    
+    <li><a href="#method-i-update_sql">#update_sql</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../ActiveRecord.html">ActiveRecord</a>
+  
+    <li><a href="../../ActiveRecord/Base.html">ActiveRecord::Base</a>
+  
+    <li><a href="../../ActiveRecord/ConnectionAdapters.html">ActiveRecord::ConnectionAdapters</a>
+  
+    <li><a href="../../ActiveRecord/ConnectionAdapters/ConnectionPool.html">ActiveRecord::ConnectionAdapters::ConnectionPool</a>
+  
+    <li><a href="../../ActiveRecord/ConnectionAdapters/FiberedMonitor.html">ActiveRecord::ConnectionAdapters::FiberedMonitor</a>
+  
+    <li><a href="../../ActiveRecord/ConnectionAdapters/FiberedMonitor/Queue.html">ActiveRecord::ConnectionAdapters::FiberedMonitor::Queue</a>
+  
+    <li><a href="../../ActiveRecord/ConnectionAdapters/Mysql2Adapter.html">ActiveRecord::ConnectionAdapters::Mysql2Adapter</a>
+  
+    <li><a href="../../ActiveRecord/ConnectionAdapters/Mysql2Column.html">ActiveRecord::ConnectionAdapters::Mysql2Column</a>
+  
+    <li><a href="../../Mysql2.html">Mysql2</a>
+  
+    <li><a href="../../Mysql2/Fibered.html">Mysql2::Fibered</a>
+  
+    <li><a href="../../Mysql2/Fibered/Client.html">Mysql2::Fibered::Client</a>
+  
+    <li><a href="../../Mysql2/Fibered/Client/Watcher.html">Mysql2::Fibered::Client::Watcher</a>
+  
+    <li><a href="../../Activerecord.html">Activerecord</a>
+  
+    <li><a href="../../Activerecord/Mysql2.html">Activerecord::Mysql2</a>
+  
+    <li><a href="../../Activerecord/Mysql2/Adapter.html">Activerecord::Mysql2::Adapter</a>
+  
+    <li><a href="../../Arel.html">Arel</a>
+  
+    <li><a href="../../Arel/SqlCompiler.html">Arel::SqlCompiler</a>
+  
+    <li><a href="../../Arel/SqlCompiler/Mysql2Compiler.html">Arel::SqlCompiler::Mysql2Compiler</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class ActiveRecord::ConnectionAdapters::Mysql2Adapter</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+    <!-- Constants -->
+    <section id="constants-list" class="section">
+      <h3 class="section-header">Constants</h3>
+      <dl>
+      
+        <dt id="ADAPTER_NAME">ADAPTER_NAME
+        
+        <dd class="description">
+        
+      
+        <dt id="LOST_CONNECTION_ERROR_MESSAGES">LOST_CONNECTION_ERROR_MESSAGES
+        
+        <dd class="description">
+        
+      
+        <dt id="NATIVE_DATABASE_TYPES">NATIVE_DATABASE_TYPES
+        
+        <dd class="description">
+        
+      
+        <dt id="PRIMARY">PRIMARY
+        
+        <dd class="description">
+        
+      
+        <dt id="QUOTED_FALSE">QUOTED_FALSE
+        
+        <dd class="description">
+        
+      
+      </dl>
+    </section>
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(connection, logger, connection_options, config)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 118</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">connection</span>, <span class="ruby-identifier">logger</span>, <span class="ruby-identifier">connection_options</span>, <span class="ruby-identifier">config</span>)
+  <span class="ruby-keyword">super</span>(<span class="ruby-identifier">connection</span>, <span class="ruby-identifier">logger</span>)
+  <span class="ruby-ivar">@connection_options</span>, <span class="ruby-ivar">@config</span> = <span class="ruby-identifier">connection_options</span>, <span class="ruby-identifier">config</span>
+  <span class="ruby-ivar">@quoted_column_names</span>, <span class="ruby-ivar">@quoted_table_names</span> = {}, {}
+  <span class="ruby-identifier">configure_connection</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-active-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">active?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>CONNECTION MANAGEMENT ====================================</p>
+          
+
+          
+          <div class="method-source-code" id="active-3F-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 193</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">active?</span>
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">false</span> <span class="ruby-keyword">unless</span> <span class="ruby-ivar">@connection</span>
+  <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">ping</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- active-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- active-3F-method -->
+
+    
+      <div id="method-i-adapter_name" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">adapter_name</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="adapter_name-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 125</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">adapter_name</span>
+  <span class="ruby-constant">ADAPTER_NAME</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- adapter_name-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- adapter_name-method -->
+
+    
+      <div id="method-i-add_column" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_column</span><span
+            class="method-args">(table_name, column_name, type, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="add_column-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 445</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_column</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">type</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">add_column_sql</span> = <span class="ruby-node">&quot;ALTER TABLE #{quote_table_name(table_name)} ADD #{quote_column_name(column_name)} #{type_to_sql(type, options[:limit], options[:precision], options[:scale])}&quot;</span>
+  <span class="ruby-identifier">add_column_options!</span>(<span class="ruby-identifier">add_column_sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">add_column_position!</span>(<span class="ruby-identifier">add_column_sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">add_column_sql</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_column-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_column-method -->
+
+    
+      <div id="method-i-add_column_position-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_column_position!</span><span
+            class="method-args">(sql, options)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="add_column_position-21-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 523</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_column_position!</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:first</span>]
+    <span class="ruby-identifier">sql</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-string">&quot; FIRST&quot;</span>
+  <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:after</span>]
+    <span class="ruby-identifier">sql</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot; AFTER #{quote_column_name(options[:after])}&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_column_position-21-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_column_position-21-method -->
+
+    
+      <div id="method-i-add_limit_offset-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">add_limit_offset!</span><span
+            class="method-args">(sql, options)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="add_limit_offset-21-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 315</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">add_limit_offset!</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">limit</span>, <span class="ruby-identifier">offset</span> = <span class="ruby-identifier">options</span>[<span class="ruby-value">:limit</span>], <span class="ruby-identifier">options</span>[<span class="ruby-value">:offset</span>]
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">limit</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">offset</span>
+    <span class="ruby-identifier">sql</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot; LIMIT #{offset.to_i}, #{sanitize_limit(limit)}&quot;</span>
+  <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">limit</span>
+    <span class="ruby-identifier">sql</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot; LIMIT #{sanitize_limit(limit)}&quot;</span>
+  <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">offset</span>
+    <span class="ruby-identifier">sql</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot; OFFSET #{offset.to_i}&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">sql</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- add_limit_offset-21-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- add_limit_offset-21-method -->
+
+    
+      <div id="method-i-begin_db_transaction" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">begin_db_transaction</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="begin_db_transaction-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 285</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">begin_db_transaction</span>
+  <span class="ruby-identifier">execute</span> <span class="ruby-string">&quot;BEGIN&quot;</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">Exception</span>
+  <span class="ruby-comment"># Transactions aren't supported</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- begin_db_transaction-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- begin_db_transaction-method -->
+
+    
+      <div id="method-i-case_sensitive_equality_operator" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">case_sensitive_equality_operator</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="case_sensitive_equality_operator-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 551</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">case_sensitive_equality_operator</span>
+  <span class="ruby-string">&quot;= BINARY&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- case_sensitive_equality_operator-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- case_sensitive_equality_operator-method -->
+
+    
+      <div id="method-i-change_column" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">change_column</span><span
+            class="method-args">(table_name, column_name, type, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="change_column-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 467</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">change_column</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">type</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">column</span> = <span class="ruby-identifier">column_for</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>)
+
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">options_include_default?</span>(<span class="ruby-identifier">options</span>)
+    <span class="ruby-identifier">options</span>[<span class="ruby-value">:default</span>] = <span class="ruby-identifier">column</span>.<span class="ruby-identifier">default</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-value">:null</span>)
+    <span class="ruby-identifier">options</span>[<span class="ruby-value">:null</span>] = <span class="ruby-identifier">column</span>.<span class="ruby-identifier">null</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">change_column_sql</span> = <span class="ruby-node">&quot;ALTER TABLE #{quote_table_name(table_name)} CHANGE #{quote_column_name(column_name)} #{quote_column_name(column_name)} #{type_to_sql(type, options[:limit], options[:precision], options[:scale])}&quot;</span>
+  <span class="ruby-identifier">add_column_options!</span>(<span class="ruby-identifier">change_column_sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">add_column_position!</span>(<span class="ruby-identifier">change_column_sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">change_column_sql</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- change_column-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- change_column-method -->
+
+    
+      <div id="method-i-change_column_default" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">change_column_default</span><span
+            class="method-args">(table_name, column_name, default)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="change_column_default-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 452</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">change_column_default</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">default</span>)
+  <span class="ruby-identifier">column</span> = <span class="ruby-identifier">column_for</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>)
+  <span class="ruby-identifier">change_column</span> <span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">column</span>.<span class="ruby-identifier">sql_type</span>, <span class="ruby-value">:default</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">default</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- change_column_default-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- change_column_default-method -->
+
+    
+      <div id="method-i-change_column_null" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">change_column_null</span><span
+            class="method-args">(table_name, column_name, null, default = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="change_column_null-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 457</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">change_column_null</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">null</span>, <span class="ruby-identifier">default</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">column</span> = <span class="ruby-identifier">column_for</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>)
+
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">null</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">default</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-identifier">execute</span>(<span class="ruby-node">&quot;UPDATE #{quote_table_name(table_name)} SET #{quote_column_name(column_name)}=#{quote(default)} WHERE #{quote_column_name(column_name)} IS NULL&quot;</span>)
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">change_column</span> <span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">column</span>.<span class="ruby-identifier">sql_type</span>, <span class="ruby-value">:null</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">null</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- change_column_null-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- change_column_null-method -->
+
+    
+      <div id="method-i-charset" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">charset</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Returns the database character set.</p>
+          
+
+          
+          <div class="method-source-code" id="charset-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 371</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">charset</span>
+  <span class="ruby-identifier">show_variable</span> <span class="ruby-string">'character_set_database'</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- charset-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- charset-method -->
+
+    
+      <div id="method-i-collation" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">collation</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Returns the database collation strategy.</p>
+          
+
+          
+          <div class="method-source-code" id="collation-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 376</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">collation</span>
+  <span class="ruby-identifier">show_variable</span> <span class="ruby-string">'collation_database'</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- collation-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- collation-method -->
+
+    
+      <div id="method-i-columns" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">columns</span><span
+            class="method-args">(table_name, name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="columns-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 427</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">columns</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">sql</span> = <span class="ruby-node">&quot;SHOW FIELDS FROM #{quote_table_name(table_name)}&quot;</span>
+  <span class="ruby-identifier">columns</span> = []
+  <span class="ruby-identifier">result</span> = <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-value">:skip_logging</span>)
+  <span class="ruby-identifier">result</span>.<span class="ruby-identifier">each</span>(<span class="ruby-value">:symbolize_keys</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-value">:as</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">:hash</span>) { <span class="ruby-operator">|</span><span class="ruby-identifier">field</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">columns</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Mysql2Column</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">field</span>[<span class="ruby-value">:Field</span>], <span class="ruby-identifier">field</span>[<span class="ruby-value">:Default</span>], <span class="ruby-identifier">field</span>[<span class="ruby-value">:Type</span>], <span class="ruby-identifier">field</span>[<span class="ruby-value">:Null</span>] <span class="ruby-operator">==</span> <span class="ruby-string">&quot;YES&quot;</span>)
+  }
+  <span class="ruby-identifier">columns</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- columns-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- columns-method -->
+
+    
+      <div id="method-i-commit_db_transaction" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">commit_db_transaction</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="commit_db_transaction-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 291</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">commit_db_transaction</span>
+  <span class="ruby-identifier">execute</span> <span class="ruby-string">&quot;COMMIT&quot;</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">Exception</span>
+  <span class="ruby-comment"># Transactions aren't supported</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- commit_db_transaction-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- commit_db_transaction-method -->
+
+    
+      <div id="method-i-create" class="method-detail method-alias">
+        
+        <div class="method-heading">
+          <span class="method-name">create</span><span
+            class="method-args">(sql, name = nil, pk = nil, id_value = nil, sequence_name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+        </div>
+
+        
+
+        
+        <div class="aliases">
+          Alias for: <a href="Mysql2Adapter.html#method-i-insert_sql">insert_sql</a>
+        </div>
+        
+      </div><!-- create-method -->
+
+    
+      <div id="method-i-create_database" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">create_database</span><span
+            class="method-args">(name, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Create a new MySQL database with optional <code>:charset</code> and
+<code>:collation</code>. Charset defaults to utf8.</p>
+
+<p>Example:</p>
+
+<pre class="ruby"><span class="ruby-identifier">create_database</span> <span class="ruby-string">'charset_test'</span>, :<span class="ruby-identifier">charset</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'latin1'</span>, :<span class="ruby-identifier">collation</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">'latin1_bin'</span>
+<span class="ruby-identifier">create_database</span> <span class="ruby-string">'matt_development'</span>
+<span class="ruby-identifier">create_database</span> <span class="ruby-string">'matt_development'</span>, :<span class="ruby-identifier">charset</span> =<span class="ruby-operator">&gt;</span> :<span class="ruby-identifier">big5</span>
+</pre>
+          
+
+          
+          <div class="method-source-code" id="create_database-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 354</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">create_database</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>[<span class="ruby-value">:collation</span>]
+    <span class="ruby-identifier">execute</span> <span class="ruby-node">&quot;CREATE DATABASE `#{name}` DEFAULT CHARACTER SET `#{options[:charset] || 'utf8'}` COLLATE `#{options[:collation]}`&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">execute</span> <span class="ruby-node">&quot;CREATE DATABASE `#{name}` DEFAULT CHARACTER SET `#{options[:charset] || 'utf8'}`&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- create_database-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- create_database-method -->
+
+    
+      <div id="method-i-create_savepoint" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">create_savepoint</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="create_savepoint-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 303</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">create_savepoint</span>
+  <span class="ruby-identifier">execute</span>(<span class="ruby-node">&quot;SAVEPOINT #{current_savepoint_name}&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- create_savepoint-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- create_savepoint-method -->
+
+    
+      <div id="method-i-create_table" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">create_table</span><span
+            class="method-args">(table_name, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="create_table-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 437</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">create_table</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-keyword">super</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">options</span>.<span class="ruby-identifier">reverse_merge</span>(<span class="ruby-value">:options</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-string">&quot;ENGINE=InnoDB&quot;</span>))
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- create_table-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- create_table-method -->
+
+    
+      <div id="method-i-current_database" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">current_database</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="current_database-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 366</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">current_database</span>
+  <span class="ruby-identifier">select_value</span> <span class="ruby-string">'SELECT DATABASE() as db'</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- current_database-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- current_database-method -->
+
+    
+      <div id="method-i-disconnect-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">disconnect!</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="disconnect-21-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 208</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">disconnect!</span>
+  <span class="ruby-keyword">unless</span> <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">nil?</span>
+    <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">close</span>
+    <span class="ruby-ivar">@connection</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- disconnect-21-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- disconnect-21-method -->
+
+    
+      <div id="method-i-drop_table" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">drop_table</span><span
+            class="method-args">(table_name, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="drop_table-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 406</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">drop_table</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-keyword">super</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">options</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- drop_table-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- drop_table-method -->
+
+    
+      <div id="method-i-execute" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">execute</span><span
+            class="method-args">(sql, name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Executes the SQL statement in the context of this connection.</p>
+          
+
+          
+          <div class="method-source-code" id="execute-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 257</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-comment"># make sure we carry over any changes to ActiveRecord::Base.default_timezone that have been</span>
+  <span class="ruby-comment"># made since we established the connection</span>
+  <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">query_options</span>[<span class="ruby-value">:database_timezone</span>] = <span class="ruby-constant">ActiveRecord</span><span class="ruby-operator">::</span><span class="ruby-constant">Base</span>.<span class="ruby-identifier">default_timezone</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">name</span> <span class="ruby-operator">==</span> <span class="ruby-value">:skip_logging</span>
+    <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">query</span>(<span class="ruby-identifier">sql</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">log</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">name</span>) { <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">query</span>(<span class="ruby-identifier">sql</span>) }
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">ActiveRecord</span><span class="ruby-operator">::</span><span class="ruby-constant">StatementInvalid</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">exception</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">exception</span>.<span class="ruby-identifier">message</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">&quot;:&quot;</span>).<span class="ruby-identifier">first</span> <span class="ruby-operator">=~</span> <span class="ruby-regexp">/Packets out of order/</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">ActiveRecord</span><span class="ruby-operator">::</span><span class="ruby-constant">StatementInvalid</span>, <span class="ruby-string">&quot;'Packets out of order' error was received from the database. Please update your mysql bindings (gem install mysql) and read http://dev.mysql.com/doc/mysql/en/password-hashing.html for more information.  If you're on Windows, use the Instant Rails installer to get the updated mysql bindings.&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">raise</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- execute-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- execute-method -->
+
+    
+      <div id="method-i-indexes" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">indexes</span><span
+            class="method-args">(table_name, name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="indexes-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 410</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">indexes</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">indexes</span> = []
+  <span class="ruby-identifier">current_index</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-identifier">result</span> = <span class="ruby-identifier">execute</span>(<span class="ruby-node">&quot;SHOW KEYS FROM #{quote_table_name(table_name)}&quot;</span>, <span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">result</span>.<span class="ruby-identifier">each</span>(<span class="ruby-value">:symbolize_keys</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-value">:as</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">:hash</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">row</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">current_index</span> <span class="ruby-operator">!=</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:Key_name</span>]
+      <span class="ruby-keyword">next</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:Key_name</span>] <span class="ruby-operator">==</span> <span class="ruby-constant">PRIMARY</span> <span class="ruby-comment"># skip the primary key</span>
+      <span class="ruby-identifier">current_index</span> = <span class="ruby-identifier">row</span>[<span class="ruby-value">:Key_name</span>]
+      <span class="ruby-identifier">indexes</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Mysql2IndexDefinition</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">row</span>[<span class="ruby-value">:Table</span>], <span class="ruby-identifier">row</span>[<span class="ruby-value">:Key_name</span>], <span class="ruby-identifier">row</span>[<span class="ruby-value">:Non_unique</span>] <span class="ruby-operator">==</span> <span class="ruby-value">0</span>, [], [])
+    <span class="ruby-keyword">end</span>
+
+    <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">last</span>.<span class="ruby-identifier">columns</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:Column_name</span>]
+    <span class="ruby-identifier">indexes</span>.<span class="ruby-identifier">last</span>.<span class="ruby-identifier">lengths</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:Sub_part</span>]
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">indexes</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- indexes-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- indexes-method -->
+
+    
+      <div id="method-i-insert_sql" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">insert_sql</span><span
+            class="method-args">(sql, name = nil, pk = nil, id_value = nil, sequence_name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="insert_sql-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 274</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">insert_sql</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">pk</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">id_value</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">sequence_name</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-keyword">super</span>
+  <span class="ruby-identifier">id_value</span> <span class="ruby-operator">||</span> <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">last_id</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- insert_sql-source -->
+          
+        </div>
+
+        
+        <div class="aliases">
+          Also aliased as: <a href="Mysql2Adapter.html#method-i-create">create</a>
+        </div>
+        
+
+        
+      </div><!-- insert_sql-method -->
+
+    
+      <div id="method-i-limited_update_conditions" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">limited_update_conditions</span><span
+            class="method-args">(where_sql, quoted_table_name, quoted_primary_key)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="limited_update_conditions-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 555</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">limited_update_conditions</span>(<span class="ruby-identifier">where_sql</span>, <span class="ruby-identifier">quoted_table_name</span>, <span class="ruby-identifier">quoted_primary_key</span>)
+  <span class="ruby-identifier">where_sql</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- limited_update_conditions-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- limited_update_conditions-method -->
+
+    
+      <div id="method-i-native_database_types" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">native_database_types</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="native_database_types-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 141</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">native_database_types</span>
+  <span class="ruby-constant">NATIVE_DATABASE_TYPES</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- native_database_types-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- native_database_types-method -->
+
+    
+      <div id="method-i-pk_and_sequence_for" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">pk_and_sequence_for</span><span
+            class="method-args">(table)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="pk_and_sequence_for-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 536</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">pk_and_sequence_for</span>(<span class="ruby-identifier">table</span>)
+  <span class="ruby-identifier">keys</span> = []
+  <span class="ruby-identifier">result</span> = <span class="ruby-identifier">execute</span>(<span class="ruby-node">&quot;describe #{quote_table_name(table)}&quot;</span>)
+  <span class="ruby-identifier">result</span>.<span class="ruby-identifier">each</span>(<span class="ruby-value">:symbolize_keys</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-keyword">true</span>, <span class="ruby-value">:as</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-value">:hash</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">row</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">keys</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:Field</span>] <span class="ruby-keyword">if</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:Key</span>] <span class="ruby-operator">==</span> <span class="ruby-string">&quot;PRI&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">keys</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">==</span> <span class="ruby-value">1</span> <span class="ruby-operator">?</span> [<span class="ruby-identifier">keys</span>.<span class="ruby-identifier">first</span>, <span class="ruby-keyword">nil</span>] <span class="ruby-operator">:</span> <span class="ruby-keyword">nil</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- pk_and_sequence_for-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- pk_and_sequence_for-method -->
+
+    
+      <div id="method-i-primary_key" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">primary_key</span><span
+            class="method-args">(table)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Returns just a table’s primary key</p>
+          
+
+          
+          <div class="method-source-code" id="primary_key-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 546</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">primary_key</span>(<span class="ruby-identifier">table</span>)
+  <span class="ruby-identifier">pk_and_sequence</span> = <span class="ruby-identifier">pk_and_sequence_for</span>(<span class="ruby-identifier">table</span>)
+  <span class="ruby-identifier">pk_and_sequence</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">pk_and_sequence</span>.<span class="ruby-identifier">first</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- primary_key-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- primary_key-method -->
+
+    
+      <div id="method-i-quote" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">quote</span><span
+            class="method-args">(value, column = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>QUOTING ==================================================</p>
+          
+
+          
+          <div class="method-source-code" id="quote-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 147</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">quote</span>(<span class="ruby-identifier">value</span>, <span class="ruby-identifier">column</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">value</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">String</span>) <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">column</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">column</span>.<span class="ruby-identifier">type</span> <span class="ruby-operator">==</span> <span class="ruby-value">:binary</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">column</span>.<span class="ruby-identifier">class</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:string_to_binary</span>)
+    <span class="ruby-identifier">s</span> = <span class="ruby-identifier">column</span>.<span class="ruby-identifier">class</span>.<span class="ruby-identifier">string_to_binary</span>(<span class="ruby-identifier">value</span>).<span class="ruby-identifier">unpack</span>(<span class="ruby-string">&quot;H*&quot;</span>)[<span class="ruby-value">0</span>]
+    <span class="ruby-node">&quot;x'#{s}'&quot;</span>
+  <span class="ruby-keyword">elsif</span> <span class="ruby-identifier">value</span>.<span class="ruby-identifier">kind_of?</span>(<span class="ruby-constant">BigDecimal</span>)
+    <span class="ruby-identifier">value</span>.<span class="ruby-identifier">to_s</span>(<span class="ruby-string">&quot;F&quot;</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">super</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- quote-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- quote-method -->
+
+    
+      <div id="method-i-quote_string" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">quote_string</span><span
+            class="method-args">(string)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="quote_string-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 166</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">quote_string</span>(<span class="ruby-identifier">string</span>)
+  <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">escape</span>(<span class="ruby-identifier">string</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- quote_string-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- quote_string-method -->
+
+    
+      <div id="method-i-quoted_false" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">quoted_false</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="quoted_false-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 174</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">quoted_false</span>
+  <span class="ruby-constant">QUOTED_FALSE</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- quoted_false-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- quoted_false-method -->
+
+    
+      <div id="method-i-quoted_true" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">quoted_true</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="quoted_true-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 170</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">quoted_true</span>
+  <span class="ruby-constant">QUOTED_TRUE</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- quoted_true-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- quoted_true-method -->
+
+    
+      <div id="method-i-reconnect-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">reconnect!</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="reconnect-21-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 198</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">reconnect!</span>
+  <span class="ruby-identifier">disconnect!</span>
+  <span class="ruby-identifier">connect</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- reconnect-21-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- reconnect-21-method -->
+
+    
+      <div id="method-i-recreate_database" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">recreate_database</span><span
+            class="method-args">(name, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="recreate_database-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 342</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">recreate_database</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">drop_database</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">create_database</span>(<span class="ruby-identifier">name</span>, <span class="ruby-identifier">options</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- recreate_database-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- recreate_database-method -->
+
+    
+      <div id="method-i-release_savepoint" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">release_savepoint</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="release_savepoint-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 311</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">release_savepoint</span>
+  <span class="ruby-identifier">execute</span>(<span class="ruby-node">&quot;RELEASE SAVEPOINT #{current_savepoint_name}&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- release_savepoint-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- release_savepoint-method -->
+
+    
+      <div id="method-i-rename_column" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rename_column</span><span
+            class="method-args">(table_name, column_name, new_column_name)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="rename_column-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 484</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rename_column</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">column_name</span>, <span class="ruby-identifier">new_column_name</span>)
+  <span class="ruby-identifier">options</span> = {}
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">column</span> = <span class="ruby-identifier">columns</span>(<span class="ruby-identifier">table_name</span>).<span class="ruby-identifier">find</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">c</span><span class="ruby-operator">|</span> <span class="ruby-identifier">c</span>.<span class="ruby-identifier">name</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">column_name</span>.<span class="ruby-identifier">to_s</span> }
+    <span class="ruby-identifier">options</span>[<span class="ruby-value">:default</span>] = <span class="ruby-identifier">column</span>.<span class="ruby-identifier">default</span>
+    <span class="ruby-identifier">options</span>[<span class="ruby-value">:null</span>] = <span class="ruby-identifier">column</span>.<span class="ruby-identifier">null</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">raise</span> <span class="ruby-constant">ActiveRecordError</span>, <span class="ruby-node">&quot;No such column: #{table_name}.#{column_name}&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">current_type</span> = <span class="ruby-identifier">select_one</span>(<span class="ruby-node">&quot;SHOW COLUMNS FROM #{quote_table_name(table_name)} LIKE '#{column_name}'&quot;</span>)[<span class="ruby-string">&quot;Type&quot;</span>]
+  <span class="ruby-identifier">rename_column_sql</span> = <span class="ruby-node">&quot;ALTER TABLE #{quote_table_name(table_name)} CHANGE #{quote_column_name(column_name)} #{quote_column_name(new_column_name)} #{current_type}&quot;</span>
+  <span class="ruby-identifier">add_column_options!</span>(<span class="ruby-identifier">rename_column_sql</span>, <span class="ruby-identifier">options</span>)
+  <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">rename_column_sql</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- rename_column-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- rename_column-method -->
+
+    
+      <div id="method-i-rename_table" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rename_table</span><span
+            class="method-args">(table_name, new_name)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="rename_table-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 441</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rename_table</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-identifier">new_name</span>)
+  <span class="ruby-identifier">execute</span> <span class="ruby-node">&quot;RENAME TABLE #{quote_table_name(table_name)} TO #{quote_table_name(new_name)}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- rename_table-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- rename_table-method -->
+
+    
+      <div id="method-i-requires_reloading-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">requires_reloading?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>this is set to true in 2.3, but we don’t want it to be</p>
+          
+
+          
+          <div class="method-source-code" id="requires_reloading-3F-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 204</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">requires_reloading?</span>
+  <span class="ruby-keyword">false</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- requires_reloading-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- requires_reloading-3F-method -->
+
+    
+      <div id="method-i-reset-21" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">reset!</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="reset-21-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 215</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">reset!</span>
+  <span class="ruby-identifier">disconnect!</span>
+  <span class="ruby-identifier">connect</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- reset-21-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- reset-21-method -->
+
+    
+      <div id="method-i-rollback_db_transaction" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rollback_db_transaction</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="rollback_db_transaction-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 297</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rollback_db_transaction</span>
+  <span class="ruby-identifier">execute</span> <span class="ruby-string">&quot;ROLLBACK&quot;</span>
+<span class="ruby-keyword">rescue</span> <span class="ruby-constant">Exception</span>
+  <span class="ruby-comment"># Transactions aren't supported</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- rollback_db_transaction-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- rollback_db_transaction-method -->
+
+    
+      <div id="method-i-rollback_to_savepoint" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">rollback_to_savepoint</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="rollback_to_savepoint-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 307</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">rollback_to_savepoint</span>
+  <span class="ruby-identifier">execute</span>(<span class="ruby-node">&quot;ROLLBACK TO SAVEPOINT #{current_savepoint_name}&quot;</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- rollback_to_savepoint-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- rollback_to_savepoint-method -->
+
+    
+      <div id="method-i-select_rows" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">select_rows</span><span
+            class="method-args">(sql, name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Returns an array of arrays containing the field values. Order is the same
+as that returned by <code>columns</code>.</p>
+          
+
+          
+          <div class="method-source-code" id="select_rows-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 252</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">select_rows</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">name</span>).<span class="ruby-identifier">to_a</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- select_rows-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- select_rows-method -->
+
+    
+      <div id="method-i-show_variable" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">show_variable</span><span
+            class="method-args">(name)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="show_variable-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 531</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">show_variable</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-identifier">variables</span> = <span class="ruby-identifier">select_all</span>(<span class="ruby-node">&quot;SHOW VARIABLES LIKE '#{name}'&quot;</span>)
+  <span class="ruby-identifier">variables</span>.<span class="ruby-identifier">first</span>[<span class="ruby-string">'Value'</span>] <span class="ruby-keyword">unless</span> <span class="ruby-identifier">variables</span>.<span class="ruby-identifier">empty?</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- show_variable-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- show_variable-method -->
+
+    
+      <div id="method-i-structure_dump" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">structure_dump</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>SCHEMA STATEMENTS ========================================</p>
+          
+
+          
+          <div class="method-source-code" id="structure_dump-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 329</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">structure_dump</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">supports_views?</span>
+    <span class="ruby-identifier">sql</span> = <span class="ruby-string">&quot;SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'&quot;</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">sql</span> = <span class="ruby-string">&quot;SHOW TABLES&quot;</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">select_all</span>(<span class="ruby-identifier">sql</span>).<span class="ruby-identifier">inject</span>(<span class="ruby-string">&quot;&quot;</span>) <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">structure</span>, <span class="ruby-identifier">table</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">table</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-string">'Table_type'</span>)
+    <span class="ruby-identifier">structure</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">select_one</span>(<span class="ruby-node">&quot;SHOW CREATE TABLE #{quote_table_name(table.to_a.first.last)}&quot;</span>)[<span class="ruby-string">&quot;Create Table&quot;</span>] <span class="ruby-operator">+</span> <span class="ruby-string">&quot;;\n\n&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- structure_dump-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- structure_dump-method -->
+
+    
+      <div id="method-i-supports_migrations-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">supports_migrations?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="supports_migrations-3F-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 129</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">supports_migrations?</span>
+  <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- supports_migrations-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- supports_migrations-3F-method -->
+
+    
+      <div id="method-i-supports_primary_key-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">supports_primary_key?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="supports_primary_key-3F-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 133</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">supports_primary_key?</span>
+  <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- supports_primary_key-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- supports_primary_key-3F-method -->
+
+    
+      <div id="method-i-supports_savepoints-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">supports_savepoints?</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="supports_savepoints-3F-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 137</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">supports_savepoints?</span>
+  <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- supports_savepoints-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- supports_savepoints-3F-method -->
+
+    
+      <div id="method-i-table_exists-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">table_exists?</span><span
+            class="method-args">(name)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="table_exists-3F-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 392</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">table_exists?</span>(<span class="ruby-identifier">name</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">true</span> <span class="ruby-keyword">if</span> <span class="ruby-keyword">super</span>
+
+  <span class="ruby-identifier">name</span>          = <span class="ruby-identifier">name</span>.<span class="ruby-identifier">to_s</span>
+  <span class="ruby-identifier">schema</span>, <span class="ruby-identifier">table</span> = <span class="ruby-identifier">name</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">'.'</span>, <span class="ruby-value">2</span>)
+
+  <span class="ruby-keyword">unless</span> <span class="ruby-identifier">table</span> <span class="ruby-comment"># A table was provided without a schema</span>
+    <span class="ruby-identifier">table</span>  = <span class="ruby-identifier">schema</span>
+    <span class="ruby-identifier">schema</span> = <span class="ruby-keyword">nil</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">tables</span>(<span class="ruby-keyword">nil</span>, <span class="ruby-identifier">schema</span>).<span class="ruby-identifier">include?</span> <span class="ruby-identifier">table</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- table_exists-3F-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- table_exists-3F-method -->
+
+    
+      <div id="method-i-tables" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">tables</span><span
+            class="method-args">(name = nil, database = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="tables-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 380</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">tables</span>(<span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">database</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">tables</span> = []
+
+  <span class="ruby-identifier">sql</span> = <span class="ruby-string">&quot;SHOW TABLES &quot;</span>
+  <span class="ruby-identifier">sql</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot;IN #{quote_table_name(database)} &quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">database</span>
+
+  <span class="ruby-identifier">execute</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-string">'SCHEMA'</span>).<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">field</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">tables</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">field</span>.<span class="ruby-identifier">first</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">tables</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- tables-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- tables-method -->
+
+    
+      <div id="method-i-type_to_sql" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">type_to_sql</span><span
+            class="method-args">(type, limit = nil, precision = nil, scale = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          <p>Maps logical Rails types to MySQL-specific data types.</p>
+          
+
+          
+          <div class="method-source-code" id="type_to_sql-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 499</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">type_to_sql</span>(<span class="ruby-identifier">type</span>, <span class="ruby-identifier">limit</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">precision</span> = <span class="ruby-keyword">nil</span>, <span class="ruby-identifier">scale</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-keyword">case</span> <span class="ruby-identifier">type</span>.<span class="ruby-identifier">to_s</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-string">'integer'</span>
+    <span class="ruby-keyword">case</span> <span class="ruby-identifier">limit</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">1</span>; <span class="ruby-string">'tinyint'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">2</span>; <span class="ruby-string">'smallint'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">3</span>; <span class="ruby-string">'mediumint'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-keyword">nil</span>, <span class="ruby-value">4</span>, <span class="ruby-value">11</span>; <span class="ruby-string">'int(11)'</span>  <span class="ruby-comment"># compatibility with MySQL default</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">5</span><span class="ruby-operator">..</span><span class="ruby-value">8</span>; <span class="ruby-string">'bigint'</span>
+    <span class="ruby-keyword">else</span> <span class="ruby-identifier">raise</span>(<span class="ruby-constant">ActiveRecordError</span>, <span class="ruby-node">&quot;No integer type has byte size #{limit}&quot;</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-string">'text'</span>
+    <span class="ruby-keyword">case</span> <span class="ruby-identifier">limit</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">0</span><span class="ruby-operator">..</span><span class="ruby-value">0xff</span>;               <span class="ruby-string">'tinytext'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-keyword">nil</span>, <span class="ruby-value">0x100</span><span class="ruby-operator">..</span><span class="ruby-value">0xffff</span>;    <span class="ruby-string">'text'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">0x10000</span><span class="ruby-operator">..</span><span class="ruby-value">0xffffff</span>;     <span class="ruby-string">'mediumtext'</span>
+    <span class="ruby-keyword">when</span> <span class="ruby-value">0x1000000</span><span class="ruby-operator">..</span><span class="ruby-value">0xffffffff</span>; <span class="ruby-string">'longtext'</span>
+    <span class="ruby-keyword">else</span> <span class="ruby-identifier">raise</span>(<span class="ruby-constant">ActiveRecordError</span>, <span class="ruby-node">&quot;No text type has character length #{limit}&quot;</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">super</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- type_to_sql-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- type_to_sql-method -->
+
+    
+      <div id="method-i-update_sql" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">update_sql</span><span
+            class="method-args">(sql, name = nil)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="update_sql-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 280</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">update_sql</span>(<span class="ruby-identifier">sql</span>, <span class="ruby-identifier">name</span> = <span class="ruby-keyword">nil</span>)
+  <span class="ruby-keyword">super</span>
+  <span class="ruby-ivar">@connection</span>.<span class="ruby-identifier">affected_rows</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- update_sql-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- update_sql-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+     <section id="protected-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Protected Instance Methods</h3>
+
+    
+      <div id="method-i-quoted_columns_for_index" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">quoted_columns_for_index</span><span
+            class="method-args">(column_names, options = {})</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="quoted_columns_for_index-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 560</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">quoted_columns_for_index</span>(<span class="ruby-identifier">column_names</span>, <span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">length</span> = <span class="ruby-identifier">options</span>[<span class="ruby-value">:length</span>] <span class="ruby-keyword">if</span> <span class="ruby-identifier">options</span>.<span class="ruby-identifier">is_a?</span>(<span class="ruby-constant">Hash</span>)
+
+  <span class="ruby-identifier">quoted_column_names</span> = <span class="ruby-keyword">case</span> <span class="ruby-identifier">length</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-constant">Hash</span>
+    <span class="ruby-identifier">column_names</span>.<span class="ruby-identifier">map</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">name</span><span class="ruby-operator">|</span> <span class="ruby-identifier">length</span>[<span class="ruby-identifier">name</span>] <span class="ruby-operator">?</span> <span class="ruby-node">&quot;#{quote_column_name(name)}(#{length[name]})&quot;</span> <span class="ruby-operator">:</span> <span class="ruby-identifier">quote_column_name</span>(<span class="ruby-identifier">name</span>) }
+  <span class="ruby-keyword">when</span> <span class="ruby-constant">Fixnum</span>
+    <span class="ruby-identifier">column_names</span>.<span class="ruby-identifier">map</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">name</span><span class="ruby-operator">|</span> <span class="ruby-node">&quot;#{quote_column_name(name)}(#{length})&quot;</span>}
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-identifier">column_names</span>.<span class="ruby-identifier">map</span> {<span class="ruby-operator">|</span><span class="ruby-identifier">name</span><span class="ruby-operator">|</span> <span class="ruby-identifier">quote_column_name</span>(<span class="ruby-identifier">name</span>) }
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- quoted_columns_for_index-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- quoted_columns_for_index-method -->
+
+    
+      <div id="method-i-translate_exception" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">translate_exception</span><span
+            class="method-args">(exception, message)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="translate_exception-source">
+            <pre><span class="ruby-comment"># File lib/active_record/connection_adapters/mysql2_adapter.rb, line 573</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">translate_exception</span>(<span class="ruby-identifier">exception</span>, <span class="ruby-identifier">message</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">super</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">exception</span>.<span class="ruby-identifier">respond_to?</span>(<span class="ruby-value">:error_number</span>)
+
+  <span class="ruby-keyword">case</span> <span class="ruby-identifier">exception</span>.<span class="ruby-identifier">error_number</span>
+  <span class="ruby-keyword">when</span> <span class="ruby-value">1062</span>
+    <span class="ruby-constant">RecordNotUnique</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">message</span>, <span class="ruby-identifier">exception</span>)
+  <span class="ruby-keyword">when</span> <span class="ruby-value">1452</span>
+    <span class="ruby-constant">InvalidForeignKey</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">message</span>, <span class="ruby-identifier">exception</span>)
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">super</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- translate_exception-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- translate_exception-method -->
+
+    
+    </section><!-- protected-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.2.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

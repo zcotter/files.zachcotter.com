@@ -1,0 +1,12 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  23 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649     1846 Sep 21  2013 after_cd_bundler
+-rw-rw-r--   1 zcotter  pg4945649      147 Sep 21  2013 after_cd_install_vendored_gems
+-rwxrwxr-x   1 zcotter  pg4945649      455 Sep 21  2013 after_install_auto_gem
+-rw-rw-r--   1 zcotter  pg4945649     1330 Sep 21  2013 after_install_codesign
+-rw-rw-r--   1 zcotter  pg4945649      290 Sep 21  2013 after_use_jruby
+-rw-rw-r--   1 zcotter  pg4945649      253 Sep 21  2013 after_use_jruby_opts
+-rwxrwxr-x   1 zcotter  pg4945649      147 Sep 21  2013 after_use_maglev
+-rw-rw-r--   1 zcotter  pg4945649      235 Sep 21  2013 after_use_rbx_opts
+-rw-rw-r--   1 zcotter  pg4945649      594 Sep 21  2013 after_use_textmate
+-rw-rw-r--   1 zcotter  pg4945649        0 Sep 21  2013 .gitkeep

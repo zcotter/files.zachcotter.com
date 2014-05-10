@@ -1,0 +1,13 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     6421 Sep 20  2013 CHANGELOG.md
+-rw-r--r--   1 zcotter  pg4945649     1584 Sep 20  2013 CONTRIBUTING.md
+-rw-r--r--   1 zcotter  pg4945649       97 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649      117 Sep 20  2013 .gitignore
+-rw-r--r--   1 zcotter  pg4945649      884 Sep 20  2013 jquery-rails.gemspec
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1070 Sep 20  2013 LICENSE
+-rw-r--r--   1 zcotter  pg4945649      728 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     3587 Sep 20  2013 README.md
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 vendor
+-rw-r--r--   1 zcotter  pg4945649     1360 Sep 20  2013 VERSIONS.md

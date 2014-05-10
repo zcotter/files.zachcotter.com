@@ -1,0 +1,11 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     5754 Sep 20  2013 command_line_usage.rdoc
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 example
+-rw-r--r--   1 zcotter  pg4945649     1843 Sep 20  2013 glossary.rdoc
+-rw-r--r--   1 zcotter  pg4945649    11351 Sep 20  2013 jamis.rb
+-rw-r--r--   1 zcotter  pg4945649     2503 Sep 20  2013 proto_rake.rdoc
+-rw-r--r--   1 zcotter  pg4945649     1370 Sep 20  2013 rake.1.gz
+-rw-r--r--   1 zcotter  pg4945649    20396 Sep 20  2013 rakefile.rdoc
+-rw-r--r--   1 zcotter  pg4945649     6216 Sep 20  2013 rational.rdoc
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 release_notes

@@ -1,0 +1,10 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  23 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649     4310 Sep 21  2013 db
+-rw-rw-r--   1 zcotter  pg4945649     2715 Sep 21  2013 displayed-notes.txt
+-rw-rw-r--   1 zcotter  pg4945649      856 Sep 21  2013 known
+-rw-rw-r--   1 zcotter  pg4945649    31858 Sep 21  2013 md5
+-rw-rw-r--   1 zcotter  pg4945649    10766 Sep 21  2013 remote
+-rw-rw-r--   1 zcotter  pg4945649    33575 Sep 21  2013 sha512
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 solaris
+-rw-rw-r--   1 zcotter  pg4945649      188 Sep 21  2013 ssh.example

@@ -1,0 +1,6 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 adapters
+-rw-r--r--   1 zcotter  pg4945649     3954 Sep 20  2013 base.rb
+-rw-r--r--   1 zcotter  pg4945649      170 Sep 20  2013 to_adapter.rb
+-rw-r--r--   1 zcotter  pg4945649       41 Sep 20  2013 version.rb

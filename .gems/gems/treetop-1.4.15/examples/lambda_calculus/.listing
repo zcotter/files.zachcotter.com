@@ -1,0 +1,12 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      250 Sep 20  2013 arithmetic_node_classes.rb
+-rw-r--r--   1 zcotter  pg4945649     9874 Sep 20  2013 arithmetic.rb
+-rw-r--r--   1 zcotter  pg4945649     1326 Sep 20  2013 arithmetic_test.rb
+-rw-r--r--   1 zcotter  pg4945649     1349 Sep 20  2013 arithmetic.treetop
+-rw-r--r--   1 zcotter  pg4945649        0 Sep 20  2013 lambda_calculus
+-rw-r--r--   1 zcotter  pg4945649       87 Sep 20  2013 lambda_calculus_node_classes.rb
+-rw-r--r--   1 zcotter  pg4945649    13917 Sep 20  2013 lambda_calculus.rb
+-rw-r--r--   1 zcotter  pg4945649     2466 Sep 20  2013 lambda_calculus_test.rb
+-rw-r--r--   1 zcotter  pg4945649     2677 Sep 20  2013 lambda_calculus.treetop
+-rw-r--r--   1 zcotter  pg4945649      330 Sep 20  2013 test_helper.rb

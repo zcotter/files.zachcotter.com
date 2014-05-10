@@ -1,0 +1,14 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  19 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2191 Sep 20  2013 aliasing.rb
+-rw-r--r--   1 zcotter  pg4945649      641 Sep 20  2013 anonymous.rb
+-rw-r--r--   1 zcotter  pg4945649     1759 Sep 20  2013 attribute_accessors.rb
+-rw-r--r--   1 zcotter  pg4945649     1401 Sep 20  2013 attr_internal.rb
+-rw-r--r--   1 zcotter  pg4945649     5344 Sep 20  2013 delegation.rb
+-rw-r--r--   1 zcotter  pg4945649      290 Sep 20  2013 deprecation.rb
+-rw-r--r--   1 zcotter  pg4945649     2291 Sep 20  2013 introspection.rb
+-rw-r--r--   1 zcotter  pg4945649      325 Sep 20  2013 method_names.rb
+-rw-r--r--   1 zcotter  pg4945649     1800 Sep 20  2013 qualified_const.rb
+-rw-r--r--   1 zcotter  pg4945649      208 Sep 20  2013 reachable.rb
+-rw-r--r--   1 zcotter  pg4945649      464 Sep 20  2013 remove_method.rb
+-rw-r--r--   1 zcotter  pg4945649     2038 Sep 20  2013 synchronization.rb

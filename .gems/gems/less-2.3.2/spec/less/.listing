@@ -1,0 +1,8 @@
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 faulty
+-rw-r--r--   1 zcotter  pg4945649     1088 Sep 21  2013 loader_spec.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 one
+-rw-r--r--   1 zcotter  pg4945649     6149 Sep 21  2013 parser_spec.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 some
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 two

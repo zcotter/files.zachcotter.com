@@ -1,0 +1,9 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649    35906 Sep 20  2013 error_const.h
+-rw-r--r--   1 zcotter  pg4945649     2438 Sep 20  2013 extconf.rb
+-rw-rw-r--   1 zcotter  pg4945649     4020 Sep 20  2013 Makefile
+-rw-rw-r--   1 zcotter  pg4945649     4607 Sep 20  2013 mkmf.log
+-rwxrwxr-x   1 zcotter  pg4945649   167928 Sep 20  2013 mysql_api.so
+-rw-r--r--   1 zcotter  pg4945649    69454 Sep 20  2013 mysql.c
+-rw-rw-r--   1 zcotter  pg4945649   303912 Sep 20  2013 mysql.o

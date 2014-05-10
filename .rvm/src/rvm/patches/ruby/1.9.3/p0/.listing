@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 .
+drwxrwxr-x  12 zcotter  pg4945649     4096 Sep 17  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649     1177 Sep 17  2013 cflags.patch
+-rw-rw-r--   1 zcotter  pg4945649      476 Sep 17  2013 debug.diff
+-rw-rw-r--   1 zcotter  pg4945649    60886 Sep 17  2013 falcon.patch
+-rw-rw-r--   1 zcotter  pg4945649     3941 Sep 17  2013 gcdata.patch
+-rw-rw-r--   1 zcotter  pg4945649      399 Sep 17  2013 osx-arch-fix.patch

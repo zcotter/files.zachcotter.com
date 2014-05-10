@@ -1,0 +1,4 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      584 Sep 21  2013 activerecord-mysql2-adapter-0.0.3.gemspec
+-rw-rw-r--   1 zcotter  pg4945649      876 Sep 21  2013 mysql2-0.3.13.gemspec

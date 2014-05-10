@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      507 Sep 20  2013 extensions.rb
+-rw-r--r--   1 zcotter  pg4945649     6286 Sep 20  2013 index.rb
+-rw-r--r--   1 zcotter  pg4945649     1219 Sep 20  2013 normalized_array.rb
+-rw-r--r--   1 zcotter  pg4945649      650 Sep 20  2013 paths.rb
+-rw-r--r--   1 zcotter  pg4945649     5895 Sep 20  2013 trail.rb

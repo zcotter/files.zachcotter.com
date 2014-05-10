@@ -1,0 +1,4 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     1464 Sep 20  2013 hash_with_indifferent_access_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     3348 Sep 20  2013 ordered_hash_spec.rb

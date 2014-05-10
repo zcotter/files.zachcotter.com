@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     4067 Sep 20  2013 layout.html.erb
+-rw-r--r--   1 zcotter  pg4945649     2514 Sep 20  2013 layout.html.haml
+-rw-r--r--   1 zcotter  pg4945649     2499 Sep 20  2013 layout.html.slim

@@ -1,0 +1,8 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 .
+drwxrwxr-x  17 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      423 Sep 17  2013 array_comment_test.sh
+-rw-rw-r--   1 zcotter  pg4945649      964 Sep 17  2013 bundler_cd_hook_comment_test.sh
+-rw-rw-r--   1 zcotter  pg4945649     1516 Sep 17  2013 path_mismatch_comment_test.sh
+-rw-rw-r--   1 zcotter  pg4945649     2787 Sep 17  2013 ruby-env_comment_test.sh
+-rw-rw-r--   1 zcotter  pg4945649      832 Sep 17  2013 rvm-user_comment_test.sh
+-rw-rw-r--   1 zcotter  pg4945649      616 Sep 17  2013 version_compare_comment_test.sh

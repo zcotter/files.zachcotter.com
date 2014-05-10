@@ -1,0 +1,6 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 active_record
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 activerecord-mysql2-adapter
+-rw-rw-r--   1 zcotter  pg4945649      120 Sep 21  2013 activerecord-mysql2-adapter.rb
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 arel

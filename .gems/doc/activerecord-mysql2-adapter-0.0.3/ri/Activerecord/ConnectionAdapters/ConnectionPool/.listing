@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      652 Sep 21  2013 cdesc-ConnectionPool.ri
+-rw-rw-r--   1 zcotter  pg4945649      237 Sep 21  2013 clear_stale_cached_connections%21-i.ri
+-rw-rw-r--   1 zcotter  pg4945649      186 Sep 21  2013 new-c.ri

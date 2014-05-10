@@ -1,0 +1,8 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649    10120 Sep 20  2013 CHANGELOG.textile
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 ci
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rwxr-xr-x   1 zcotter  pg4945649     1061 Sep 20  2013 MIT-LICENSE
+-rw-r--r--   1 zcotter  pg4945649     3447 Sep 20  2013 README.textile
+drwxrwxr-x   9 zcotter  pg4945649     4096 Sep 20  2013 test

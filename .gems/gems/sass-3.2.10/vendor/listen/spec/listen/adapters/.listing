@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      796 Sep 20  2013 bsd_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      816 Sep 20  2013 darwin_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1248 Sep 20  2013 linux_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     2155 Sep 20  2013 polling_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      638 Sep 20  2013 windows_spec.rb

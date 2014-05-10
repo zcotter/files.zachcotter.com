@@ -1,0 +1,8 @@
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 assets
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 code
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 rails_guides
+-rw-r--r--   1 zcotter  pg4945649     1141 Sep 20  2013 rails_guides.rb
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 source
+-rw-r--r--   1 zcotter  pg4945649     2534 Sep 20  2013 w3c_validator.rb

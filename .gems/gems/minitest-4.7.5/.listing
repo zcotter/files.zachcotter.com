@@ -1,0 +1,11 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-r--r--r--   1 zcotter  pg4945649      769 Sep 20  2013 .autotest
+-r--r--r--   1 zcotter  pg4945649     1928 Sep 20  2013 design_rationale.rb
+-rw-rw-r--   1 zcotter  pg4945649        0 Sep 20  2013 .gemtest
+-r--r--r--   1 zcotter  pg4945649    24440 Sep 20  2013 History.txt
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 lib
+-r--r--r--   1 zcotter  pg4945649      460 Sep 20  2013 Manifest.txt
+-r--r--r--   1 zcotter  pg4945649     2527 Sep 20  2013 Rakefile
+-r--r--r--   1 zcotter  pg4945649    14635 Sep 20  2013 README.txt
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 test

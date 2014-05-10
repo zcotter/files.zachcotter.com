@@ -1,0 +1,8 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     4118 Sep 20  2013 coercion_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      684 Sep 20  2013 deep_merge_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     2672 Sep 20  2013 indifferent_access_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     2873 Sep 20  2013 key_conversion_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      548 Sep 20  2013 merge_initializer_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     3218 Sep 20  2013 method_access_spec.rb

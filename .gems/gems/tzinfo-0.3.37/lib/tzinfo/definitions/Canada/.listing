@@ -1,0 +1,11 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  19 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      208 Sep 20  2013 Atlantic.rb
+-rw-r--r--   1 zcotter  pg4945649      207 Sep 20  2013 Central.rb
+-rw-r--r--   1 zcotter  pg4945649      206 Sep 20  2013 Eastern.rb
+-rw-r--r--   1 zcotter  pg4945649      229 Sep 20  2013 East__m__Saskatchewan.rb
+-rw-r--r--   1 zcotter  pg4945649      209 Sep 20  2013 Mountain.rb
+-rw-r--r--   1 zcotter  pg4945649      217 Sep 20  2013 Newfoundland.rb
+-rw-r--r--   1 zcotter  pg4945649      208 Sep 20  2013 Pacific.rb
+-rw-r--r--   1 zcotter  pg4945649      215 Sep 20  2013 Saskatchewan.rb
+-rw-r--r--   1 zcotter  pg4945649      205 Sep 20  2013 Yukon.rb

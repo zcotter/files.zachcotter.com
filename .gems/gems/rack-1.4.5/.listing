@@ -1,0 +1,13 @@
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 bin
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 contrib
+-rw-r--r--   1 zcotter  pg4945649     1102 Sep 20  2013 COPYING
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 example
+-rw-r--r--   1 zcotter  pg4945649     1073 Sep 20  2013 KNOWN-ISSUES
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1364 Sep 20  2013 rack.gemspec
+-rw-r--r--   1 zcotter  pg4945649     3441 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649    23664 Sep 20  2013 README.rdoc
+-rw-r--r--   1 zcotter  pg4945649     9584 Sep 20  2013 SPEC
+drwxrwxr-x   9 zcotter  pg4945649     4096 Sep 20  2013 test

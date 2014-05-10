@@ -1,0 +1,14 @@
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 app{1}
+-rw-r--r--   1 zcotter  pg4945649       29 Sep 20  2013 application.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 bundle
+-rw-r--r--   1 zcotter  pg4945649      249 Sep 20  2013 command.thor
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 doc
+-rw-r--r--   1 zcotter  pg4945649      200 Sep 20  2013 enum.thor
+-rw-r--r--   1 zcotter  pg4945649     2353 Sep 20  2013 group.thor
+-rw-r--r--   1 zcotter  pg4945649     1682 Sep 20  2013 invoke.thor
+-rw-r--r--   1 zcotter  pg4945649        0 Sep 20  2013 path with spaces
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 preserve
+-rw-r--r--   1 zcotter  pg4945649     4520 Sep 20  2013 script.thor
+-rw-r--r--   1 zcotter  pg4945649      266 Sep 20  2013 subcommand.thor

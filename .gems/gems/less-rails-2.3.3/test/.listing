@@ -1,0 +1,5 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 cases
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 dummy_app
+-rw-r--r--   1 zcotter  pg4945649     3552 Sep 20  2013 spec_helper.rb

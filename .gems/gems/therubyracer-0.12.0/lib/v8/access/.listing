@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      774 Sep 20  2013 indices.rb
+-rw-r--r--   1 zcotter  pg4945649     1175 Sep 20  2013 invocation.rb
+-rw-r--r--   1 zcotter  pg4945649     1676 Sep 20  2013 names.rb

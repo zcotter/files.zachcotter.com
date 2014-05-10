@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  12 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3870 Sep 21  2013 active_record_generator_test.rb
+-rw-r--r--   1 zcotter  pg4945649     1099 Sep 21  2013 devise_generator_test.rb
+-rw-r--r--   1 zcotter  pg4945649      382 Sep 21  2013 install_generator_test.rb
+-rw-r--r--   1 zcotter  pg4945649      629 Sep 21  2013 mongoid_generator_test.rb
+-rw-r--r--   1 zcotter  pg4945649     2524 Sep 21  2013 views_generator_test.rb

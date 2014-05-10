@@ -1,0 +1,34 @@
+drwxrwxr-x  17 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 bin
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 binscripts
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 config
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 contrib
+-rw-rw-r--   1 zcotter  pg4945649     3212 Sep 17  2013 CONTRIBUTING.md
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 examples
+-rw-rw-r--   1 zcotter  pg4945649     2527 Sep 17  2013 FORMATTING.md
+-rw-rw-r--   1 zcotter  pg4945649       12 Sep 17  2013 .gems
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 17  2013 gemsets
+-rw-rw-r--   1 zcotter  pg4945649      413 Sep 17  2013 .gitignore
+-rw-rw-r--   1 zcotter  pg4945649       90 Sep 17  2013 .gitmodules
+-rw-rw-r--   1 zcotter  pg4945649     2215 Sep 17  2013 HACKING.md
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 help
+-rw-rw-r--   1 zcotter  pg4945649   196363 Sep 17  2013 History.txt
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 hooks
+lrwxrwxrwx   1 zcotter  pg4945649       15 Sep 21  2013 install -> scripts/install
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 lib
+-rw-rw-r--   1 zcotter  pg4945649      566 Sep 17  2013 LICENCE
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 man
+-rw-rw-r--   1 zcotter  pg4945649        0 Sep 17  2013 NEXT.md
+drwxrwxr-x  10 zcotter  pg4945649     4096 Sep 17  2013 patches
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 17  2013 patchsets
+-rw-rw-r--   1 zcotter  pg4945649     1787 Sep 17  2013 Rakefile
+-rw-rw-r--   1 zcotter  pg4945649     9021 Sep 17  2013 README
+lrwxrwxrwx   1 zcotter  pg4945649        6 Sep 21  2013 README.rdoc -> README
+lrwxrwxrwx   1 zcotter  pg4945649        6 Sep 21  2013 README.txt -> README
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 rvm-test
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 rvm-test-rvm1
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 17  2013 scripts
+-rw-rw-r--   1 zcotter  pg4945649      621 Sep 17  2013 .travis.yml
+-rw-rw-r--   1 zcotter  pg4945649      523 Sep 17  2013 update-remote.sh
+-rw-rw-r--   1 zcotter  pg4945649        8 Sep 17  2013 VERSION

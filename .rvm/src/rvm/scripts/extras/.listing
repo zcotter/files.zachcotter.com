@@ -1,0 +1,6 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 17  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      807 Sep 17  2013 chruby.sh
+-rwxrwxr-x   1 zcotter  pg4945649     2755 Sep 17  2013 completion.bash
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 completion.zsh
+-rw-rw-r--   1 zcotter  pg4945649     6217 Sep 17  2013 rails

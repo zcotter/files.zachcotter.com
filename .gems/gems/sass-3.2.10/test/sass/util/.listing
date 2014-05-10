@@ -1,0 +1,4 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  10 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rwxr-xr-x   1 zcotter  pg4945649     3831 Sep 20  2013 multibyte_string_scanner_test.rb
+-rwxr-xr-x   1 zcotter  pg4945649     2703 Sep 20  2013 subset_map_test.rb

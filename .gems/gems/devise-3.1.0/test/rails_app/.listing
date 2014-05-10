@@ -1,0 +1,10 @@
+drwxrwxr-x   8 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  12 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   8 zcotter  pg4945649     4096 Sep 20  2013 app
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 bin
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 config
+-rw-r--r--   1 zcotter  pg4945649      158 Sep 20  2013 config.ru
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 db
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 lib
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 public
+-rw-r--r--   1 zcotter  pg4945649      249 Sep 20  2013 Rakefile

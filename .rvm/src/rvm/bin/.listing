@@ -1,0 +1,12 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 .
+drwxrwxr-x  17 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rwxrwxr-x   1 zcotter  pg4945649      977 Sep 17  2013 bundle
+-rwxrwxr-x   1 zcotter  pg4945649      556 Sep 17  2013 rake
+-rwxrwxr-x   1 zcotter  pg4945649     1440 Sep 17  2013 rvm
+-rwxrwxr-x   1 zcotter  pg4945649     1665 Sep 17  2013 rvm-auto-ruby
+-rwxrwxr-x   1 zcotter  pg4945649     1946 Sep 17  2013 rvm-exec
+lrwxrwxrwx   1 zcotter  pg4945649       27 Sep 21  2013 rvm-installer -> ../binscripts/rvm-installer
+-rwxrwxr-x   1 zcotter  pg4945649     4192 Sep 17  2013 rvm-prompt
+-rwxrwxr-x   1 zcotter  pg4945649     2128 Sep 17  2013 rvm-shell
+-rwxrwxr-x   1 zcotter  pg4945649      648 Sep 17  2013 rvm-smile
+-rwxrwxr-x   1 zcotter  pg4945649     2618 Sep 17  2013 rvmsudo

@@ -1,0 +1,10 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      700 Sep 21  2013 activerecord-mysql2-adapter.gemspec
+-rw-rw-r--   1 zcotter  pg4945649       39 Sep 21  2013 Gemfile
+-rw-rw-r--   1 zcotter  pg4945649      154 Sep 21  2013 .gitignore
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 21  2013 lib
+-rw-rw-r--   1 zcotter  pg4945649     1074 Sep 21  2013 LICENSE
+-rw-rw-r--   1 zcotter  pg4945649       48 Sep 21  2013 Rakefile
+-rw-rw-r--   1 zcotter  pg4945649      561 Sep 21  2013 README.md
+-rw-rw-r--   1 zcotter  pg4945649       30 Sep 21  2013 .rvmrc

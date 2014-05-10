@@ -1,0 +1,16 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      197 Sep 21  2013 array.rb
+-rw-r--r--   1 zcotter  pg4945649     3086 Sep 21  2013 class.rb
+-rw-r--r--   1 zcotter  pg4945649      884 Sep 21  2013 code.rb
+-rw-r--r--   1 zcotter  pg4945649      170 Sep 21  2013 fundamental.rb
+-rw-r--r--   1 zcotter  pg4945649      187 Sep 21  2013 hash.rb
+-rw-r--r--   1 zcotter  pg4945649      735 Sep 21  2013 indentity.rb
+-rw-r--r--   1 zcotter  pg4945649      460 Sep 21  2013 method.rb
+-rw-r--r--   1 zcotter  pg4945649      380 Sep 21  2013 object.rb
+-rw-r--r--   1 zcotter  pg4945649       89 Sep 21  2013 primitive.rb
+-rw-r--r--   1 zcotter  pg4945649       77 Sep 21  2013 proc.rb
+-rw-r--r--   1 zcotter  pg4945649      327 Sep 21  2013 reference.rb
+-rw-r--r--   1 zcotter  pg4945649      174 Sep 21  2013 string.rb
+-rw-r--r--   1 zcotter  pg4945649      105 Sep 21  2013 symbol.rb
+-rw-r--r--   1 zcotter  pg4945649      196 Sep 21  2013 time.rb

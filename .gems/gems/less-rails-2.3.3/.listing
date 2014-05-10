@@ -1,0 +1,15 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      164 Sep 20  2013 Appraisals
+-rw-r--r--   1 zcotter  pg4945649     2589 Sep 20  2013 CHANGELOG.md
+-rw-r--r--   1 zcotter  pg4945649      322 Sep 20  2013 Gemfile
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 gemfiles
+-rw-r--r--   1 zcotter  pg4945649       72 Sep 20  2013 .gitignore
+-rw-r--r--   1 zcotter  pg4945649      318 Sep 20  2013 Guardfile
+-rw-r--r--   1 zcotter  pg4945649     1088 Sep 20  2013 less-rails.gemspec
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1055 Sep 20  2013 MIT-LICENSE
+-rw-r--r--   1 zcotter  pg4945649      424 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     5964 Sep 20  2013 README.md
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 test
+-rw-r--r--   1 zcotter  pg4945649      430 Sep 20  2013 .travis.yml

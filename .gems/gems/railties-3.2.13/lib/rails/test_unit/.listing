@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  11 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      363 Sep 20  2013 railtie.rb
+-rw-r--r--   1 zcotter  pg4945649      189 Sep 20  2013 sub_test_task.rb
+-rw-r--r--   1 zcotter  pg4945649     4900 Sep 20  2013 testing.rake

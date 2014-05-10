@@ -1,0 +1,9 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      106 Sep 20  2013 a.treetop
+-rw-r--r--   1 zcotter  pg4945649      114 Sep 20  2013 b.treetop
+-rw-r--r--   1 zcotter  pg4945649       99 Sep 20  2013 c.treetop
+-rw-r--r--   1 zcotter  pg4945649      111 Sep 20  2013 d.treetop
+-rw-r--r--   1 zcotter  pg4945649      226 Sep 20  2013 f.treetop
+-rw-r--r--   1 zcotter  pg4945649     1038 Sep 20  2013 grammar_composition_spec.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 subfolder

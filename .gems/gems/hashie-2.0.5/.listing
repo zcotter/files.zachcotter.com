@@ -1,0 +1,17 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     1185 Sep 20  2013 CHANGELOG.md
+-rw-r--r--   1 zcotter  pg4945649     1231 Sep 20  2013 CONTRIBUTING.md
+-rw-r--r--   1 zcotter  pg4945649       60 Sep 20  2013 .document
+-rw-r--r--   1 zcotter  pg4945649       37 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649       67 Sep 20  2013 .gitignore
+-rw-r--r--   1 zcotter  pg4945649      156 Sep 20  2013 Guardfile
+-rw-r--r--   1 zcotter  pg4945649     1083 Sep 20  2013 hashie.gemspec
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1058 Sep 20  2013 LICENSE
+-rw-r--r--   1 zcotter  pg4945649      251 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     7587 Sep 20  2013 README.markdown
+-rw-r--r--   1 zcotter  pg4945649       25 Sep 20  2013 .rspec
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 spec
+-rw-r--r--   1 zcotter  pg4945649       75 Sep 20  2013 .travis.yml
+-rw-r--r--   1 zcotter  pg4945649       12 Sep 20  2013 .yardopts

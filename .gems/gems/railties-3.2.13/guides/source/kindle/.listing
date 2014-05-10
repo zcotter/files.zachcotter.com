@@ -1,0 +1,9 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649       23 Sep 20  2013 copyright.html.erb
+-rw-r--r--   1 zcotter  pg4945649     1142 Sep 20  2013 KINDLE.md
+-rw-r--r--   1 zcotter  pg4945649      698 Sep 20  2013 layout.html.erb
+-rw-r--r--   1 zcotter  pg4945649     1769 Sep 20  2013 rails_guides.opf.erb
+-rw-r--r--   1 zcotter  pg4945649      650 Sep 20  2013 toc.html.erb
+-rw-r--r--   1 zcotter  pg4945649     2212 Sep 20  2013 toc.ncx.erb
+-rw-r--r--   1 zcotter  pg4945649      235 Sep 20  2013 welcome.html.erb

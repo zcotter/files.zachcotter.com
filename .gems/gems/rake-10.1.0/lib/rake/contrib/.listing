@@ -1,0 +1,8 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      351 Sep 20  2013 compositepublisher.rb
+-rw-r--r--   1 zcotter  pg4945649     3400 Sep 20  2013 ftptools.rb
+-rw-r--r--   1 zcotter  pg4945649     1828 Sep 20  2013 publisher.rb
+-rw-r--r--   1 zcotter  pg4945649      302 Sep 20  2013 rubyforgepublisher.rb
+-rw-r--r--   1 zcotter  pg4945649     1226 Sep 20  2013 sshpublisher.rb
+-rw-r--r--   1 zcotter  pg4945649      102 Sep 20  2013 sys.rb

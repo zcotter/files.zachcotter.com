@@ -1,0 +1,10 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   9 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 assets
+-rwxr-xr-x   1 zcotter  pg4945649      953 Sep 20  2013 lighttpd.conf
+-rwxr-xr-x   1 zcotter  pg4945649       93 Sep 20  2013 rackup_stub.rb
+-rwxr-xr-x   1 zcotter  pg4945649       78 Sep 20  2013 sample_rackup.ru
+-rwxrwxr-x   1 zcotter  pg4945649      193 Sep 20  2013 test
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 test+directory
+-rwxrwxr-x   1 zcotter  pg4945649      160 Sep 20  2013 test.fcgi
+-rwxrwxr-x   1 zcotter  pg4945649       96 Sep 20  2013 test.ru

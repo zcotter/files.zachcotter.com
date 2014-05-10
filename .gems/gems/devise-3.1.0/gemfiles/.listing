@@ -1,0 +1,4 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      572 Sep 20  2013 Gemfile.rails-3.2.x
+-rw-r--r--   1 zcotter  pg4945649     3511 Sep 20  2013 Gemfile.rails-3.2.x.lock

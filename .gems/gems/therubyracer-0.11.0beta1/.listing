@@ -1,0 +1,14 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     4693 Sep 21  2013 benchmarks.rb
+-rw-r--r--   1 zcotter  pg4945649     7479 Sep 21  2013 Changelog.md
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 ext
+-rw-r--r--   1 zcotter  pg4945649      289 Sep 21  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649      214 Sep 21  2013 .gitignore
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1071 Sep 21  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     6044 Sep 21  2013 README.md
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 21  2013 spec
+-rw-r--r--   1 zcotter  pg4945649     7693 Sep 21  2013 thefrontside.png
+-rw-r--r--   1 zcotter  pg4945649      900 Sep 21  2013 therubyracer.gemspec
+-rw-r--r--   1 zcotter  pg4945649      163 Sep 21  2013 .travis.yml

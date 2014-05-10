@@ -1,0 +1,15 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      997 Sep 20  2013 bcrypt-ruby.gemspec
+-rw-r--r--   1 zcotter  pg4945649     2046 Sep 20  2013 CHANGELOG
+-rw-r--r--   1 zcotter  pg4945649     1255 Sep 20  2013 COPYING
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 ext
+-rw-r--r--   1 zcotter  pg4945649       38 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649      586 Sep 20  2013 Gemfile.lock
+-rw-r--r--   1 zcotter  pg4945649       72 Sep 20  2013 .gitignore
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1887 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     7720 Sep 20  2013 README.md
+-rw-r--r--   1 zcotter  pg4945649       43 Sep 20  2013 .rspec
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 spec
+-rw-r--r--   1 zcotter  pg4945649      157 Sep 20  2013 .travis.yml

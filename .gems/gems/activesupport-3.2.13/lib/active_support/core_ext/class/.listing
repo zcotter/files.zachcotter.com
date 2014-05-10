@@ -1,0 +1,6 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  19 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     5135 Sep 20  2013 attribute_accessors.rb
+-rw-r--r--   1 zcotter  pg4945649     3641 Sep 20  2013 attribute.rb
+-rw-r--r--   1 zcotter  pg4945649     1918 Sep 20  2013 delegating_attributes.rb
+-rw-r--r--   1 zcotter  pg4945649      865 Sep 20  2013 subclasses.rb

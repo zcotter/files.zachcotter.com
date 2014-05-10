@@ -1,0 +1,8 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3136 Sep 20  2013 create_file.rb
+-rw-r--r--   1 zcotter  pg4945649     1798 Sep 20  2013 create_link.rb
+-rw-r--r--   1 zcotter  pg4945649     4116 Sep 20  2013 directory.rb
+-rw-r--r--   1 zcotter  pg4945649     4256 Sep 20  2013 empty_directory.rb
+-rw-r--r--   1 zcotter  pg4945649    10837 Sep 20  2013 file_manipulation.rb
+-rw-r--r--   1 zcotter  pg4945649     3143 Sep 20  2013 inject_into_file.rb

@@ -1,0 +1,8 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     1433 Sep 20  2013 clash_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     7584 Sep 20  2013 dash_spec.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 extensions
+-rw-r--r--   1 zcotter  pg4945649      736 Sep 20  2013 hash_spec.rb
+-rw-r--r--   1 zcotter  pg4945649    13060 Sep 20  2013 mash_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     4891 Sep 20  2013 trash_spec.rb

@@ -1,0 +1,14 @@
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2493 Sep 20  2013 COPYING
+-rw-r--r--   1 zcotter  pg4945649     2093 Sep 20  2013 COPYING.ja
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ext
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 extra
+-rw-r--r--   1 zcotter  pg4945649        0 Sep 20  2013 .gemtest
+-rw-r--r--   1 zcotter  pg4945649     1071 Sep 20  2013 History.txt
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649      276 Sep 20  2013 Manifest.txt
+-rw-r--r--   1 zcotter  pg4945649      390 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649      904 Sep 20  2013 README.txt
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 tasks
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 test

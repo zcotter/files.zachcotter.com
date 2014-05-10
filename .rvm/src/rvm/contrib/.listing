@@ -1,0 +1,6 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 17  2013 .
+drwxrwxr-x  17 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649     3848 Sep 17  2013 bootstrap_rails_environment
+-rwxrwxr-x   1 zcotter  pg4945649      548 Sep 17  2013 gemset_snapshot
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 hudson
+-rw-rw-r--   1 zcotter  pg4945649     4347 Sep 17  2013 ps1_functions

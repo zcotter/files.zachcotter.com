@@ -1,0 +1,7 @@
+Sat, 21 Sep 2013 11:01:46 -0700
+lib/active_record/connection_adapters/mysql2_adapter.rb	Sat, 21 Sep 2013 11:01:43 -0700
+lib/active_record/connection_adapters/em_mysql2_adapter.rb	Sat, 21 Sep 2013 11:01:43 -0700
+lib/active_record/fiber_patches.rb	Sat, 21 Sep 2013 11:01:43 -0700
+lib/activerecord-mysql2-adapter/version.rb	Sat, 21 Sep 2013 11:01:43 -0700
+lib/arel/engines/sql/compilers/mysql2_compiler.rb	Sat, 21 Sep 2013 11:01:43 -0700
+lib/activerecord-mysql2-adapter.rb	Sat, 21 Sep 2013 11:01:43 -0700

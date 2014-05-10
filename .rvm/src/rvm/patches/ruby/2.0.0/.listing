@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 17  2013 .
+drwxrwxr-x  10 zcotter  pg4945649     4096 Sep 17  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      579 Sep 17  2013 broken_stack_protector.patch
+-rw-rw-r--   1 zcotter  pg4945649      367 Sep 17  2013 cc_env.patch
+-rw-rw-r--   1 zcotter  pg4945649     1469 Sep 17  2013 logging.patch
+-rw-rw-r--   1 zcotter  pg4945649      165 Sep 17  2013 remove_digest_so.patch
+-rw-rw-r--   1 zcotter  pg4945649      306 Sep 17  2013 static.patch

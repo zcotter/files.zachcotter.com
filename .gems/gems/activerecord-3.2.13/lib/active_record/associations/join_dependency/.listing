@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     4929 Sep 20  2013 join_association.rb
+-rw-r--r--   1 zcotter  pg4945649      485 Sep 20  2013 join_base.rb
+-rw-r--r--   1 zcotter  pg4945649     2673 Sep 20  2013 join_part.rb

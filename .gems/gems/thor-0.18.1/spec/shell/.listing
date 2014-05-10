@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649    10074 Sep 20  2013 basic_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     2763 Sep 20  2013 color_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1100 Sep 20  2013 html_spec.rb

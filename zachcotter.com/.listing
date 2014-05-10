@@ -1,0 +1,14 @@
+drwxr-xr-x   6 zcotter  pg4945649     4096 Sep 22  2013 .
+drwx--x---  10 zcotter  adm          4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2348 Sep 21  2013 applet.policy
+-rw-r--r--   1 zcotter  pg4945649      153 Sep 21  2013 FastMandelbrot.html
+-rw-r--r--   1 zcotter  adm             0 Sep 22  2013 favicon.gif
+-rw-r--r--   1 zcotter  adm             0 Sep 22  2013 favicon.ico
+-rw-r--r--   1 zcotter  pg4945649      236 Aug 13  2012 .htaccess
+drwxr-xr-x   6 zcotter  pg4945649     4096 Aug 26  2012 Mandelbrot
+drwxr-xr-x   5 zcotter  pg4945649     4096 Aug 14  2012 Maze
+drwxr-xr-x  13 zcotter  pg4945649     4096 Dec 17 09:41 piwik
+-rw-r--r--   1 zcotter  pg4945649      157 Sep 21  2013 SlowMandelbrot.html
+drwxr-xr-x   6 zcotter  pg4945649     4096 Sep 21  2013 Tetris
+-rw-r--r--   1 zcotter  pg4945649     1171 Sep 16  2013 tetris-frame.html
+-rw-r--r--   1 zcotter  pg4945649      392 Sep 21  2013 tetris-frame-new.html

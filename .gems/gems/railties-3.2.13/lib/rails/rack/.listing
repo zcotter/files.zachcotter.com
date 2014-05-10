@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  11 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      589 Sep 20  2013 debugger.rb
+-rw-r--r--   1 zcotter  pg4945649     1556 Sep 20  2013 logger.rb
+-rw-r--r--   1 zcotter  pg4945649      704 Sep 20  2013 log_tailer.rb

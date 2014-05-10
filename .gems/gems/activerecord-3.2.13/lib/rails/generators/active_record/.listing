@@ -1,0 +1,7 @@
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 migration
+-rw-r--r--   1 zcotter  pg4945649      490 Sep 20  2013 migration.rb
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 model
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 observer
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 session_migration

@@ -1,0 +1,13 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2987 Sep 20  2013 config.rb
+-rw-r--r--   1 zcotter  pg4945649     1620 Sep 20  2013 errors.rb
+-rw-r--r--   1 zcotter  pg4945649     7918 Sep 20  2013 hooks.rb
+-rw-r--r--   1 zcotter  pg4945649     4583 Sep 20  2013 manager.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 mixins
+-rw-r--r--   1 zcotter  pg4945649    12057 Sep 20  2013 proxy.rb
+-rw-r--r--   1 zcotter  pg4945649     1090 Sep 20  2013 session_serializer.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 strategies
+-rw-r--r--   1 zcotter  pg4945649     1229 Sep 20  2013 strategies.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 test
+-rw-r--r--   1 zcotter  pg4945649       63 Sep 20  2013 version.rb

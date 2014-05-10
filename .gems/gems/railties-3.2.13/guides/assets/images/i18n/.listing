@@ -1,0 +1,8 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649    11946 Sep 20  2013 demo_html_safe.png
+-rw-r--r--   1 zcotter  pg4945649    15027 Sep 20  2013 demo_localized_pirate.png
+-rw-r--r--   1 zcotter  pg4945649    12057 Sep 20  2013 demo_translated_en.png
+-rw-r--r--   1 zcotter  pg4945649    13392 Sep 20  2013 demo_translated_pirate.png
+-rw-r--r--   1 zcotter  pg4945649    13143 Sep 20  2013 demo_translation_missing.png
+-rw-r--r--   1 zcotter  pg4945649    11925 Sep 20  2013 demo_untranslated.png

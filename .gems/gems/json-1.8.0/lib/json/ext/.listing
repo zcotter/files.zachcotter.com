@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rwxr-xr-x   1 zcotter  pg4945649    64972 Sep 20  2013 generator.so
+-rw-rw-r--   1 zcotter  pg4945649        0 Sep 20  2013 .keep
+-rwxr-xr-x   1 zcotter  pg4945649    59286 Sep 20  2013 parser.so

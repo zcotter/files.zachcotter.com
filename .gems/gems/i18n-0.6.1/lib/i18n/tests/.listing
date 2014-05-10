@@ -1,0 +1,11 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   8 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2023 Sep 20  2013 basics.rb
+-rw-r--r--   1 zcotter  pg4945649     1545 Sep 20  2013 defaults.rb
+-rw-r--r--   1 zcotter  pg4945649     6008 Sep 20  2013 interpolation.rb
+-rw-r--r--   1 zcotter  pg4945649     2199 Sep 20  2013 link.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 localization
+-rw-r--r--   1 zcotter  pg4945649      587 Sep 20  2013 localization.rb
+-rw-r--r--   1 zcotter  pg4945649     2620 Sep 20  2013 lookup.rb
+-rw-r--r--   1 zcotter  pg4945649     1360 Sep 20  2013 pluralization.rb
+-rw-r--r--   1 zcotter  pg4945649     2730 Sep 20  2013 procs.rb

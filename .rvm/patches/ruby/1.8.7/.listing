@@ -1,0 +1,12 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  10 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649      443 Sep 21  2013 fix-irb-completion.diff
+-rw-rw-r--   1 zcotter  pg4945649    32763 Sep 21  2013 hs.patch
+-rw-rw-r--   1 zcotter  pg4945649      682 Sep 21  2013 no_sslv2.diff
+-rw-rw-r--   1 zcotter  pg4945649      399 Sep 21  2013 osx-arch-fix.patch
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 p72
+-rw-rw-r--   1 zcotter  pg4945649    14329 Sep 21  2013 railsbench.patch
+-rw-rw-r--   1 zcotter  pg4945649     1054 Sep 21  2013 readline-fix.diff
+-rw-rw-r--   1 zcotter  pg4945649    18148 Sep 21  2013 ruby187gc.patch
+-rw-rw-r--   1 zcotter  pg4945649      719 Sep 21  2013 stdout-rouge-fix.patch
+-rw-rw-r--   1 zcotter  pg4945649      319 Sep 21  2013 zlib-gc-fix.diff

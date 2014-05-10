@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  11 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3029 Sep 20  2013 abstract_sequence.rb
+-rw-r--r--   1 zcotter  pg4945649     3166 Sep 20  2013 comma_sequence.rb
+-rw-r--r--   1 zcotter  pg4945649    20777 Sep 20  2013 sequence.rb
+-rw-r--r--   1 zcotter  pg4945649     4788 Sep 20  2013 simple.rb
+-rw-r--r--   1 zcotter  pg4945649     7929 Sep 20  2013 simple_sequence.rb

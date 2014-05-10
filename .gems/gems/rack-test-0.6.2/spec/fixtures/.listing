@@ -1,0 +1,6 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649        4 Sep 20  2013 bar.txt
+-rw-r--r--   1 zcotter  pg4945649       44 Sep 20  2013 config.ru
+-rw-r--r--   1 zcotter  pg4945649     3018 Sep 20  2013 fake_app.rb
+-rw-r--r--   1 zcotter  pg4945649        4 Sep 20  2013 foo.txt

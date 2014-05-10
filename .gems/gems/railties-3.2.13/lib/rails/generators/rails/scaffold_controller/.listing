@@ -1,0 +1,5 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  19 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      785 Sep 20  2013 scaffold_controller_generator.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 templates
+-rw-r--r--   1 zcotter  pg4945649      881 Sep 20  2013 USAGE

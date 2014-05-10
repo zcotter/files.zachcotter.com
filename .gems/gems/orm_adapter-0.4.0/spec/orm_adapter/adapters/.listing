@@ -1,0 +1,6 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2052 Sep 20  2013 active_record_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1054 Sep 20  2013 data_mapper_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1040 Sep 20  2013 mongoid_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1091 Sep 20  2013 mongo_mapper_spec.rb

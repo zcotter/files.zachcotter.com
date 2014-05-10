@@ -1,0 +1,8 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      976 Sep 20  2013 application.css.scss
+-rw-r--r--   1 zcotter  pg4945649      165 Sep 20  2013 css_application.css
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 globbed
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 partials
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 subfolder
+-rw-r--r--   1 zcotter  pg4945649       34 Sep 20  2013 _top_level_partial.css.scss

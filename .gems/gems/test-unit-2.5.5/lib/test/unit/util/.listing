@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     1683 Sep 20  2013 backtracefilter.rb
+-rw-r--r--   1 zcotter  pg4945649      728 Sep 20  2013 method-owner-finder.rb
+-rw-r--r--   1 zcotter  pg4945649     2867 Sep 20  2013 observable.rb
+-rw-r--r--   1 zcotter  pg4945649      741 Sep 20  2013 output.rb
+-rw-r--r--   1 zcotter  pg4945649     1109 Sep 20  2013 procwrapper.rb

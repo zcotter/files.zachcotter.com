@@ -1,0 +1,12 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3692 Sep 20  2013 association.rb
+-rw-r--r--   1 zcotter  pg4945649      336 Sep 20  2013 belongs_to.rb
+-rw-r--r--   1 zcotter  pg4945649      597 Sep 20  2013 collection_association.rb
+-rw-r--r--   1 zcotter  pg4945649     1749 Sep 20  2013 has_and_belongs_to_many.rb
+-rw-r--r--   1 zcotter  pg4945649      310 Sep 20  2013 has_many.rb
+-rw-r--r--   1 zcotter  pg4945649      337 Sep 20  2013 has_many_through.rb
+-rw-r--r--   1 zcotter  pg4945649      427 Sep 20  2013 has_one.rb
+-rw-r--r--   1 zcotter  pg4945649      182 Sep 20  2013 has_one_through.rb
+-rw-r--r--   1 zcotter  pg4945649      485 Sep 20  2013 singular_association.rb
+-rw-r--r--   1 zcotter  pg4945649     1919 Sep 20  2013 through_association.rb

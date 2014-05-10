@@ -1,0 +1,4 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649    11546 Sep 21  2013 test_mime_type.rb
+-rw-r--r--   1 zcotter  pg4945649     3697 Sep 21  2013 test_mime_types.rb

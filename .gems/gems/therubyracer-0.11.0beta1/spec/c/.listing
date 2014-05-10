@@ -1,0 +1,14 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      372 Sep 21  2013 array_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      527 Sep 21  2013 constants_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      649 Sep 21  2013 exception_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      193 Sep 21  2013 external_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1482 Sep 21  2013 function_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      730 Sep 21  2013 handles_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      857 Sep 21  2013 locker_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1529 Sep 21  2013 object_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      881 Sep 21  2013 script_spec.rb
+-rw-r--r--   1 zcotter  pg4945649      572 Sep 21  2013 string_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1108 Sep 21  2013 template_spec.rb
+-rw-r--r--   1 zcotter  pg4945649     1747 Sep 21  2013 trycatch_spec.rb

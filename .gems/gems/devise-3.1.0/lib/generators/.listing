@@ -1,0 +1,6 @@
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 active_record
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 devise
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 mongoid
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 templates

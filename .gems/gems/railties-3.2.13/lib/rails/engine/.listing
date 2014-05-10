@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  11 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     1116 Sep 20  2013 commands.rb
+-rw-r--r--   1 zcotter  pg4945649     2749 Sep 20  2013 configuration.rb
+-rw-r--r--   1 zcotter  pg4945649      790 Sep 20  2013 railties.rb

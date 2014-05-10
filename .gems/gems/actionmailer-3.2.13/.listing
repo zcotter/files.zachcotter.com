@@ -1,0 +1,6 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     1629 Sep 20  2013 CHANGELOG.md
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1074 Sep 20  2013 MIT-LICENSE
+-rw-r--r--   1 zcotter  pg4945649     5640 Sep 20  2013 README.rdoc

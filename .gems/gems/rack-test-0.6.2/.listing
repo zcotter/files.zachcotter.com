@@ -1,0 +1,14 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649       52 Sep 20  2013 .document
+-rw-r--r--   1 zcotter  pg4945649       66 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649      552 Sep 20  2013 Gemfile.lock
+-rw-r--r--   1 zcotter  pg4945649       38 Sep 20  2013 .gitignore
+-rw-r--r--   1 zcotter  pg4945649     4968 Sep 20  2013 History.txt
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1081 Sep 20  2013 MIT-LICENSE.txt
+-rw-r--r--   1 zcotter  pg4945649     2463 Sep 20  2013 rack-test.gemspec
+-rw-r--r--   1 zcotter  pg4945649      685 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     2057 Sep 20  2013 README.rdoc
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 spec
+-rw-r--r--   1 zcotter  pg4945649     3166 Sep 20  2013 Thorfile

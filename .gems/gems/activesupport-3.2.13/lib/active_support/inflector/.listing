@@ -1,0 +1,5 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  17 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     7607 Sep 20  2013 inflections.rb
+-rw-r--r--   1 zcotter  pg4945649    12235 Sep 20  2013 methods.rb
+-rw-r--r--   1 zcotter  pg4945649     3223 Sep 20  2013 transliterate.rb

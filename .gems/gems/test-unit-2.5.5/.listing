@@ -1,0 +1,12 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     2645 Sep 20  2013 COPYING
+-rw-r--r--   1 zcotter  pg4945649    18009 Sep 20  2013 GPL
+-rw-r--r--   1 zcotter  pg4945649    26530 Sep 20  2013 LGPL
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649    13606 Sep 20  2013 PSFL
+-rw-r--r--   1 zcotter  pg4945649     2043 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     2297 Sep 20  2013 README.textile
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 sample
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 test
+-rw-r--r--   1 zcotter  pg4945649       16 Sep 20  2013 TODO

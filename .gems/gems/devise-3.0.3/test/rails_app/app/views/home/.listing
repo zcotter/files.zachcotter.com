@@ -1,0 +1,7 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649       15 Sep 21  2013 admin_dashboard.html.erb
+-rw-r--r--   1 zcotter  pg4945649        5 Sep 21  2013 index.html.erb
+-rw-r--r--   1 zcotter  pg4945649        4 Sep 21  2013 join.html.erb
+-rw-r--r--   1 zcotter  pg4945649        9 Sep 21  2013 private.html.erb
+-rw-r--r--   1 zcotter  pg4945649       14 Sep 21  2013 user_dashboard.html.erb

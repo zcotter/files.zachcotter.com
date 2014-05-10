@@ -1,0 +1,5 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   8 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 integration
+-rw-r--r--   1 zcotter  pg4945649      148 Sep 20  2013 %name%_test.rb
+-rw-r--r--   1 zcotter  pg4945649      469 Sep 20  2013 test_helper.rb

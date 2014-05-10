@@ -1,0 +1,9 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  15 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3322 Sep 20  2013 batches.rb
+-rw-r--r--   1 zcotter  pg4945649    15944 Sep 20  2013 calculations.rb
+-rw-r--r--   1 zcotter  pg4945649     1707 Sep 20  2013 delegation.rb
+-rw-r--r--   1 zcotter  pg4945649    15932 Sep 20  2013 finder_methods.rb
+-rw-r--r--   1 zcotter  pg4945649     2092 Sep 20  2013 predicate_builder.rb
+-rw-r--r--   1 zcotter  pg4945649    11071 Sep 20  2013 query_methods.rb
+-rw-r--r--   1 zcotter  pg4945649     4964 Sep 20  2013 spawn_methods.rb

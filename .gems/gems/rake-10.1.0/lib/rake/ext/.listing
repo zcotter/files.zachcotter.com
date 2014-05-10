@@ -1,0 +1,6 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      726 Sep 20  2013 core.rb
+-rw-r--r--   1 zcotter  pg4945649        0 Sep 20  2013 module.rb
+-rw-r--r--   1 zcotter  pg4945649     5713 Sep 20  2013 string.rb
+-rw-r--r--   1 zcotter  pg4945649      292 Sep 20  2013 time.rb

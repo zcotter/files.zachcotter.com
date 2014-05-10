@@ -1,0 +1,7 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   9 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649    15007 Sep 20  2013 darkfish.rb
+-rw-r--r--   1 zcotter  pg4945649     6247 Sep 20  2013 json_index.rb
+-rw-r--r--   1 zcotter  pg4945649     3578 Sep 20  2013 markup.rb
+-rw-r--r--   1 zcotter  pg4945649     1646 Sep 20  2013 ri.rb
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 template

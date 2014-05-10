@@ -1,0 +1,6 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ext
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-rw-r--   1 zcotter  pg4945649       12 Sep 20  2013 .require_paths
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 vendor

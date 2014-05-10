@@ -1,0 +1,6 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-rw-r--   1 zcotter  pg4945649   383308 Sep 20  2013 libpreparser_lib.a
+-rw-rw-r--   1 zcotter  pg4945649 13025646 Sep 20  2013 libv8_base.a
+-rw-rw-r--   1 zcotter  pg4945649   272762 Sep 20  2013 libv8_nosnapshot.a
+-rw-rw-r--   1 zcotter  pg4945649   716366 Sep 20  2013 libv8_snapshot.a

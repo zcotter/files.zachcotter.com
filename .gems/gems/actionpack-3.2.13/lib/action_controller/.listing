@@ -1,0 +1,16 @@
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   8 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649    10010 Sep 20  2013 base.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 caching
+-rw-r--r--   1 zcotter  pg4945649     2581 Sep 20  2013 caching.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 deprecated
+-rw-r--r--   1 zcotter  pg4945649      230 Sep 20  2013 deprecated.rb
+-rw-r--r--   1 zcotter  pg4945649     2209 Sep 20  2013 log_subscriber.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 metal
+-rw-r--r--   1 zcotter  pg4945649     6954 Sep 20  2013 metal.rb
+-rw-r--r--   1 zcotter  pg4945649      733 Sep 20  2013 middleware.rb
+-rw-r--r--   1 zcotter  pg4945649     1889 Sep 20  2013 railtie.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 railties
+-rw-r--r--   1 zcotter  pg4945649     3667 Sep 20  2013 record_identifier.rb
+-rw-r--r--   1 zcotter  pg4945649    20761 Sep 20  2013 test_case.rb
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 vendor

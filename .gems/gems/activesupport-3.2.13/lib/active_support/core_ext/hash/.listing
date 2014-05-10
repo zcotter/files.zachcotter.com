@@ -1,0 +1,11 @@
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  19 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     6737 Sep 20  2013 conversions.rb
+-rw-r--r--   1 zcotter  pg4945649      394 Sep 20  2013 deep_dup.rb
+-rw-r--r--   1 zcotter  pg4945649      627 Sep 20  2013 deep_merge.rb
+-rw-r--r--   1 zcotter  pg4945649      410 Sep 20  2013 diff.rb
+-rw-r--r--   1 zcotter  pg4945649      723 Sep 20  2013 except.rb
+-rw-r--r--   1 zcotter  pg4945649      906 Sep 20  2013 indifferent_access.rb
+-rw-r--r--   1 zcotter  pg4945649     1799 Sep 20  2013 keys.rb
+-rw-r--r--   1 zcotter  pg4945649      599 Sep 20  2013 reverse_merge.rb
+-rw-r--r--   1 zcotter  pg4945649     1320 Sep 20  2013 slice.rb

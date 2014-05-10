@@ -1,0 +1,14 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     6612 Sep 20  2013 arel.gemspec
+-rw-r--r--   1 zcotter  pg4945649      513 Sep 20  2013 .autotest
+-rw-r--r--   1 zcotter  pg4945649      248 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649        0 Sep 20  2013 .gemtest
+-rw-r--r--   1 zcotter  pg4945649     5278 Sep 20  2013 History.txt
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     3187 Sep 20  2013 Manifest.txt
+-rw-r--r--   1 zcotter  pg4945649     1107 Sep 20  2013 MIT-LICENSE.txt
+-rw-r--r--   1 zcotter  pg4945649      605 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     4693 Sep 20  2013 README.markdown
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 test
+-rw-r--r--   1 zcotter  pg4945649      177 Sep 20  2013 .travis.yml

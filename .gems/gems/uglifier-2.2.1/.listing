@@ -1,0 +1,16 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+-rw-r--r--   1 zcotter  pg4945649      794 Sep 20  2013 CHANGELOG.md
+-rw-r--r--   1 zcotter  pg4945649     1424 Sep 20  2013 CONTRIBUTING.md
+-rw-r--r--   1 zcotter  pg4945649       55 Sep 20  2013 .document
+-rw-r--r--   1 zcotter  pg4945649      623 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649      208 Sep 20  2013 .gitmodules
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1059 Sep 20  2013 LICENSE.txt
+-rw-r--r--   1 zcotter  pg4945649     1588 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649     4894 Sep 20  2013 README.md
+-rw-r--r--   1 zcotter  pg4945649        8 Sep 20  2013 .rspec
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 spec
+-rw-r--r--   1 zcotter  pg4945649      431 Sep 20  2013 .travis.yml
+-rw-r--r--   1 zcotter  pg4945649     2389 Sep 20  2013 uglifier.gemspec
+-rw-r--r--   1 zcotter  pg4945649        5 Sep 20  2013 VERSION

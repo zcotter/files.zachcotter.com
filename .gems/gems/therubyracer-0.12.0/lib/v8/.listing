@@ -1,0 +1,15 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 access
+-rw-r--r--   1 zcotter  pg4945649       75 Sep 20  2013 access.rb
+-rw-r--r--   1 zcotter  pg4945649      497 Sep 20  2013 array.rb
+-rw-r--r--   1 zcotter  pg4945649     8084 Sep 20  2013 context.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 conversion
+-rw-r--r--   1 zcotter  pg4945649      672 Sep 20  2013 conversion.rb
+-rw-r--r--   1 zcotter  pg4945649     5737 Sep 20  2013 error.rb
+-rw-r--r--   1 zcotter  pg4945649      622 Sep 20  2013 function.rb
+-rwxr-xr-x   1 zcotter  pg4945649  9132584 Sep 20  2013 init.so
+-rw-r--r--   1 zcotter  pg4945649     1901 Sep 20  2013 object.rb
+-rw-r--r--   1 zcotter  pg4945649     1475 Sep 20  2013 stack.rb
+-rw-r--r--   1 zcotter  pg4945649       35 Sep 20  2013 version.rb
+-rw-r--r--   1 zcotter  pg4945649     1782 Sep 20  2013 weak.rb

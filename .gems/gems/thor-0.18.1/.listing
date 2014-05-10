@@ -1,0 +1,11 @@
+drwxrwxr-x   5 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 bin
+-rw-r--r--   1 zcotter  pg4945649     5946 Sep 20  2013 CHANGELOG.md
+-rw-r--r--   1 zcotter  pg4945649       49 Sep 20  2013 .document
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     1075 Sep 20  2013 LICENSE.md
+-rw-r--r--   1 zcotter  pg4945649     1355 Sep 20  2013 README.md
+drwxrwxr-x   7 zcotter  pg4945649     4096 Sep 20  2013 spec
+-rw-r--r--   1 zcotter  pg4945649      733 Sep 20  2013 Thorfile
+-rw-r--r--   1 zcotter  pg4945649      894 Sep 20  2013 thor.gemspec

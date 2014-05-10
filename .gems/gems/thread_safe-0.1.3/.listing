@@ -1,0 +1,12 @@
+drwxrwxr-x   6 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x  72 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 examples
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 20  2013 ext
+-rw-r--r--   1 zcotter  pg4945649       96 Sep 20  2013 Gemfile
+-rw-r--r--   1 zcotter  pg4945649      217 Sep 20  2013 .gitignore
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 lib
+-rw-r--r--   1 zcotter  pg4945649     9230 Sep 20  2013 LICENSE
+-rw-r--r--   1 zcotter  pg4945649      960 Sep 20  2013 Rakefile
+-rw-r--r--   1 zcotter  pg4945649      665 Sep 20  2013 README.md
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 test
+-rw-r--r--   1 zcotter  pg4945649      973 Sep 20  2013 thread_safe.gemspec

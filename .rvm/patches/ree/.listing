@@ -1,0 +1,7 @@
+drwxrwxr-x   4 zcotter  pg4945649     4096 Sep 21  2013 .
+drwxrwxr-x  10 zcotter  pg4945649     4096 Sep 21  2013 ..
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 21  2013 1.8.6
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 21  2013 1.8.7
+-rw-rw-r--   1 zcotter  pg4945649      443 Sep 21  2013 fix-irb-completion.diff
+-rw-rw-r--   1 zcotter  pg4945649      947 Sep 21  2013 lib64.patch
+-rw-rw-r--   1 zcotter  pg4945649      267 Sep 21  2013 ruby-binary-shebang.patch

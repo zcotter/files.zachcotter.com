@@ -1,0 +1,6 @@
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 .
+drwxrwxr-x   3 zcotter  pg4945649     4096 Sep 20  2013 ..
+-rw-r--r--   1 zcotter  pg4945649     3191 Sep 20  2013 jruby.rb
+-rw-r--r--   1 zcotter  pg4945649     2735 Sep 20  2013 rubinius.rb
+drwxrwxr-x   2 zcotter  pg4945649     4096 Sep 20  2013 ruby
+-rw-r--r--   1 zcotter  pg4945649     4385 Sep 20  2013 ruby.rb
